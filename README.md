@@ -32,7 +32,7 @@ python3 scripts/install.py --dest ~/.codex/skills
 python3 scripts/install.py --force
 ```
 
-`as-snow-falls` 在这台电脑上处于禁用状态，因此仓库保留的是 `SKILL.md.disabled`，安装后也不会被 Codex 自动加载。其余 14 个 Skill 会正常安装。
+当前清单包含 14 个启用中的第三方 Skill。
 
 安装脚本只恢复 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。若新 Skill 没有立即出现，请重启 Codex。
 
@@ -40,9 +40,7 @@ python3 scripts/install.py --force
 
 ### 自有 Skill
 
-| Skill | 状态 | 仓库内容 |
-| --- | --- | --- |
-| `as-snow-falls` | 已安装但禁用 | 源码位于 `skills/as-snow-falls/` |
+当前没有已安装的自有 Skill。
 
 ### 第三方 Skill
 

@@ -2,6 +2,8 @@
 
 This repository restores the user's non-built-in Codex skills.
 
+On the user's primary machine, this repository is a live mirror of the installed non-built-in Codex skill set. Any local skill installation or removal must update `skills.lock.json`, the README inventory, and owned source files in the same task, then commit and push the change.
+
 When the user asks you to install or restore the skills in this repository:
 
 1. Read `skills.lock.json` and keep its pinned revisions unless the user asks for upgrades.

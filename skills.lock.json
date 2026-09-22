@@ -10,16 +10,6 @@
   },
   "skills": [
     {
-      "name": "as-snow-falls",
-      "ownership": "owned",
-      "enabled": false,
-      "source": {
-        "type": "bundled",
-        "path": "skills/as-snow-falls"
-      },
-      "observed_at": "~/.agents/skills/as-snow-falls"
-    },
-    {
       "name": "design-taste-frontend",
       "ownership": "third-party",
       "enabled": true,
