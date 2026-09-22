@@ -6,7 +6,11 @@
     "owned_skills_are_vendored": true,
     "third_party_skills_are_links_only": true,
     "codex_system_skills_are_excluded": true,
-    "codex_bundled_runtime_skills_are_excluded": true
+    "codex_bundled_runtime_skills_are_excluded": true,
+    "sync_manifest_is_authoritative": true,
+    "sync_checks_and_installs_upstream_updates": true,
+    "sync_removes_unlisted_user_skills": true,
+    "sync_backs_up_replaced_and_removed_skills": true
   },
   "skills": [
     {

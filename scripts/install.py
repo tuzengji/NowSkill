@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -57,16 +58,28 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def load_manifest() -> dict[str, Any]:
-    with MANIFEST_PATH.open(encoding="utf-8") as handle:
+def load_manifest(path: Path = MANIFEST_PATH) -> dict[str, Any]:
+    with path.open(encoding="utf-8") as handle:
         manifest = json.load(handle)
     if manifest.get("schema_version") != 1:
         raise ValueError("Unsupported manifest schema")
-    names = [entry.get("name") for entry in manifest.get("skills", [])]
-    if not names or any(not isinstance(name, str) or not name for name in names):
-        raise ValueError("Every skill needs a non-empty name")
-    if len(names) != len(set(names)):
+    if not isinstance(manifest.get("skills"), list):
+        raise ValueError("Manifest must contain a skills list")
+    names = [entry.get("name") for entry in manifest["skills"]]
+    if any(not isinstance(name, str) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", name) for name in names):
+        raise ValueError("Every skill needs a safe directory name")
+    if len(names) != len({name.casefold() for name in names}):
         raise ValueError("Skill names must be unique")
+    for entry in manifest["skills"]:
+        if entry.get("ownership") not in {"owned", "third-party"}:
+            raise ValueError(f"Invalid ownership: {entry['name']}")
+        if not isinstance(entry.get("enabled", True), bool):
+            raise ValueError(f"Invalid enabled flag: {entry['name']}")
+        source = entry.get("source", {})
+        if source.get("type") not in {"bundled", "github", "well-known"}:
+            raise ValueError(f"Invalid source: {entry['name']}")
+        if source["type"] == "bundled" and entry["ownership"] != "owned":
+            raise ValueError("Third-party skills must remain links only")
     return manifest
 
 
@@ -81,6 +94,7 @@ def run(command: list[str], cwd: Path | None = None) -> str:
         text=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
+        timeout=180,
     )
     return result.stdout.strip()
 

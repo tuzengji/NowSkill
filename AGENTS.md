@@ -1,20 +1,32 @@
 # NowSkill agent instructions
 
-This repository restores the user's non-built-in Codex skills.
+This public repository is the desired set of the user's non-built-in skills.
 
-On the user's primary machine, this repository is a live mirror of the installed non-built-in Codex skill set. Any local skill installation or removal must update `skills.lock.json`, the README inventory, and owned source files in the same task, then commit and push the change.
+## When the user hands you this repository to set up or sync their Agent
 
-When the user asks you to install or restore the skills in this repository:
+Treat that request as authorization to install, update, and reconcile user-level skills. Do not ask again for each replacement or removal. A request only to read, review, or edit this repository does not authorize changing the current machine's installed skills.
 
-1. Read `skills.lock.json` and keep its pinned revisions unless the user asks for upgrades.
-2. Run `python3 scripts/install.py` from the repository root.
-3. Report the installed, skipped, and failed skills exactly as printed by the installer.
-4. If an existing destination was skipped, do not overwrite it unless the user explicitly asks; then rerun with `--force`. Existing directories are backed up before replacement.
-5. Tell the user to restart Codex if the newly installed skills do not appear.
+1. Clone this repository, or update an existing clean checkout using `git pull --ff-only` before syncing. Never discard local work to update it; report conflicts. Read `skills.lock.json` and identify the receiving Agent's user-level skill roots. For Codex, the default command covers `~/.agents/skills` and `$CODEX_HOME/skills` (or `~/.codex/skills`). The manifest is authoritative: do not import the receiving machine's extra skills into it before syncing.
+2. Run `python3 scripts/sync.py` from this repository. This checks the latest upstream revisions, stages and validates every required skill, installs or updates all manifest entries, and removes non-built-in skills absent from the manifest. Existing local modifications are backed up and replaced. Duplicates in the legacy root are removed after the canonical copy is installed.
+3. For another Agent, use `--dest /path/to/its/user/skills` and repeat `--root /path/to/another/user/skills` as needed. Explicit `--dest` scopes cleanup to that destination plus explicit `--root` paths; it does not scan Codex's default directories. Never pass a home directory, repository root, system directory, or plugin cache as a skill root.
+4. Preserve Codex system skills, bundled runtime skills, project/admin skills, unrelated files, and the source targets of skill symlinks. Official means built-in/system/runtime, not merely an OpenAI-authored standalone skill. OpenAI curated skills in the manifest are managed like other manually installed skills.
+5. Audit the receiving Agent's actual skill inventory after the script. User-installed third-party plugin skills may require that Agent's supported uninstall mechanism; do not delete cache folders as an uninstall, or remove unrelated connectors/configuration. Report any extra skills that could not safely be removed and do not claim full reconciliation while extras remain. Respect higher-priority host approval rules.
+6. Keep the updated Git revisions and well-known content hashes written to `skills.lock.json`. Third-party source code must never enter this repository. After successful synchronization, commit and push lockfile changes when the user has repository write access; otherwise retain the local lockfile and report that it was not pushed. Do not request new credentials or discard unrelated changes just to push.
+7. Report actual installed/updated, removed, unchanged, failed, and out-of-scope items, plus backup locations. If the command fails, stop: do not manually prune the remaining skills. Skills are normally detected automatically; restart the Agent only if needed.
 
-Repository policy:
+`--dry-run` performs upstream checks and downloads into temporary storage but changes neither installed skills nor the repository. Do not run simultaneous syncs or modify skill roots while syncing. `scripts/install.py` remains a pinned, additive restore tool; it does **not** satisfy a full synchronization request.
 
-- Source code may be committed only for skills marked `owned` in `skills.lock.json`.
-- Skills marked `third-party` must remain references only. Never vendor their source into this repository.
-- Do not add Codex system or bundled runtime skills. Codex supplies those itself.
-- Do not copy credentials, tokens, local configuration, caches, or install logs into this repository.
+## Ongoing synchronization
+
+On the user's primary machine, this repository is also a live mirror of the installed non-built-in skill set. An explicit local installation or removal changes the desired set: update `skills.lock.json`, the README inventory, and owned source files in the same task, then commit and push. An explicit skill update must likewise update the recorded revision or content hash. Receiving-machine synchronization flows from the repository to the machine, not in the opposite direction.
+
+These are Agent workflow rules, not a background filesystem watcher. Apply them whenever handling skill changes; do not promise automatic detection of changes made outside an Agent task.
+
+## Repository policy
+
+- Keep `https://github.com/tuzengji/NowSkill` public.
+- Commit source code only for skills marked `owned` in `skills.lock.json`.
+- Keep `third-party` skills as source links, paths, revisions, and content hashes only.
+- Exclude Codex system and bundled runtime skills.
+- Never commit credentials, tokens, local configuration, caches, downloaded third-party code, backups, or install logs.
+- Preserve unrelated working-tree changes. Run `python3 -m unittest discover -s tests -v` after changing synchronization behavior.
