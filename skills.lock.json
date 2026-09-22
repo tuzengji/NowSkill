@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-22",
+  "default_destination": "~/.agents/skills",
+  "policy": {
+    "owned_skills_are_vendored": true,
+    "third_party_skills_are_links_only": true,
+    "codex_system_skills_are_excluded": true,
+    "codex_bundled_runtime_skills_are_excluded": true
+  },
+  "skills": [
+    {
+      "name": "as-snow-falls",
+      "ownership": "owned",
+      "enabled": false,
+      "source": {
+        "type": "bundled",
+        "path": "skills/as-snow-falls"
+      },
+      "observed_at": "~/.agents/skills/as-snow-falls"
+    },
+    {
+      "name": "design-taste-frontend",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Leonxlnx/taste-skill.git",
+        "ref": "5217fb45be2c0b302f29c9cd31cbd3237501c684",
+        "path": "skills/taste-skill",
+        "url": "https://github.com/Leonxlnx/taste-skill/tree/5217fb45be2c0b302f29c9cd31cbd3237501c684/skills/taste-skill"
+      },
+      "observed_at": "~/.codex/skills/design-taste-frontend"
+    },
+    {
+      "name": "figma",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/figma",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/figma"
+      },
+      "observed_at": "~/.codex/skills/figma"
+    },
+    {
+      "name": "find-skills",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/vercel-labs/skills.git",
+        "ref": "7407f3893ad4dceab546ac002c3ef806e4000c73",
+        "path": "skills/find-skills",
+        "url": "https://github.com/vercel-labs/skills/tree/7407f3893ad4dceab546ac002c3ef806e4000c73/skills/find-skills"
+      },
+      "observed_at": "~/.agents/skills/find-skills"
+    },
+    {
+      "name": "flight-booking-ai",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/tourmind-com/Tourmind-Booking-Skills.git",
+        "ref": "47f22676ea7214328a8a1cac0932a40638ca4f49",
+        "path": "skills/flight-booking-ai",
+        "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/47f22676ea7214328a8a1cac0932a40638ca4f49/skills/flight-booking-ai"
+      },
+      "observed_at": "~/.codex/skills/flight-booking-ai"
+    },
+    {
+      "name": "grill-me",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+        "path": "skills/productivity/grill-me",
+        "url": "https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/productivity/grill-me"
+      },
+      "observed_at": "~/.codex/skills/grill-me"
+    },
+    {
+      "name": "grilling",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+        "path": "skills/productivity/grilling",
+        "url": "https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/productivity/grilling"
+      },
+      "observed_at": "~/.codex/skills/grilling"
+    },
+    {
+      "name": "hatch-pet",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/hatch-pet",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/hatch-pet"
+      },
+      "observed_at": "~/.codex/skills/hatch-pet"
+    },
+    {
+      "name": "humanizer",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/blader/humanizer.git",
+        "ref": "9862685f575c65a8247f90369951df1b3416e3d6",
+        "path": ".",
+        "url": "https://github.com/blader/humanizer/tree/9862685f575c65a8247f90369951df1b3416e3d6"
+      },
+      "observed_at": "~/.codex/skills/humanizer"
+    },
+    {
+      "name": "lark-base",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "well-known",
+        "base_url": "https://open.feishu.cn",
+        "url": "https://open.feishu.cn/.well-known/skills/lark-base/SKILL.md",
+        "package_digest": "sha256:30d0f21745654de06159411ea6da9f2b85ba670d78b3caf3acf69d5623104c9d"
+      },
+      "observed_at": "~/.agents/skills/lark-base"
+    },
+    {
+      "name": "lark-shared",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "well-known",
+        "base_url": "https://open.feishu.cn",
+        "url": "https://open.feishu.cn/.well-known/skills/lark-shared/SKILL.md",
+        "package_digest": "sha256:d881dd0e17903b57aaa79375e6e69c70c3400dc31da75c4f5523be128701aa72"
+      },
+      "observed_at": "~/.agents/skills/lark-shared"
+    },
+    {
+      "name": "pdf",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/pdf",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf"
+      },
+      "observed_at": "~/.codex/skills/pdf"
+    },
+    {
+      "name": "playwright",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/playwright",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright"
+      },
+      "observed_at": "~/.codex/skills/playwright"
+    },
+    {
+      "name": "shuorenhua",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/MrGeDiao/shuorenhua.git",
+        "ref": "5a9eafefe03807404135f4d2ee4f42fe61d58759",
+        "path": ".",
+        "files": [
+          "SKILL.md",
+          "references/editing-guide.md",
+          "references/examples.md"
+        ],
+        "url": "https://github.com/MrGeDiao/shuorenhua/tree/5a9eafefe03807404135f4d2ee4f42fe61d58759"
+      },
+      "observed_at": "~/.codex/skills/shuorenhua"
+    },
+    {
+      "name": "tourmind-booking",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/tourmind-com/Tourmind-Booking-Skills.git",
+        "ref": "47f22676ea7214328a8a1cac0932a40638ca4f49",
+        "path": "skills/tourmind-booking",
+        "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/47f22676ea7214328a8a1cac0932a40638ca4f49/skills/tourmind-booking"
+      },
+      "observed_at": "~/.codex/skills/tourmind-booking"
+    }
+  ]
+}
