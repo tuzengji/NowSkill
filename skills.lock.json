@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-09-22",
+  "snapshot_date": "2026-09-23",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -116,6 +116,19 @@
         "url": "https://github.com/blader/humanizer/tree/9862685f575c65a8247f90369951df1b3416e3d6"
       },
       "observed_at": "~/.codex/skills/humanizer"
+    },
+    {
+      "name": "i-have-adhd",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/ayghri/i-have-adhd.git",
+        "ref": "839872f9d1cd634fed642b4589ce7226199cc15f",
+        "path": "skills/i-have-adhd",
+        "url": "https://github.com/ayghri/i-have-adhd/tree/839872f9d1cd634fed642b4589ce7226199cc15f/skills/i-have-adhd"
+      },
+      "observed_at": "~/.codex/skills/i-have-adhd"
     },
     {
       "name": "lark-base",

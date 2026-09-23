@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前清单包含 14 个启用中的第三方 Skill。
+当前清单包含 15 个启用中的第三方 Skill。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -75,6 +75,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `flight-booking-ai`, `tourmind-booking` | [tourmind-com/Tourmind-Booking-Skills](https://github.com/tourmind-com/Tourmind-Booking-Skills) |
 | `grill-me`, `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
+| `i-have-adhd` | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 | `shuorenhua` | [MrGeDiao/shuorenhua](https://github.com/MrGeDiao/shuorenhua) |
 
 完整机器可读清单见 `skills.lock.json`。
