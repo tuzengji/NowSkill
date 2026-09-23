@@ -14,6 +14,19 @@
   },
   "skills": [
     {
+      "name": "archify",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/tt-a1i/archify.git",
+        "ref": "8809b273c278a813a47fa37698864779c0d4cf08",
+        "path": "archify",
+        "url": "https://github.com/tt-a1i/archify/tree/8809b273c278a813a47fa37698864779c0d4cf08/archify"
+      },
+      "observed_at": "~/.agents/skills/archify"
+    },
+    {
       "name": "design-taste-frontend",
       "ownership": "third-party",
       "enabled": true,
