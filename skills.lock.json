@@ -20,9 +20,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/tt-a1i/archify.git",
-        "ref": "8809b273c278a813a47fa37698864779c0d4cf08",
+        "ref": "9e35d2b0b39b155553ba9fcfe0b4f2a5198dd993",
         "path": "archify",
-        "url": "https://github.com/tt-a1i/archify/tree/8809b273c278a813a47fa37698864779c0d4cf08/archify"
+        "url": "https://github.com/tt-a1i/archify/tree/9e35d2b0b39b155553ba9fcfe0b4f2a5198dd993/archify"
       },
       "observed_at": "~/.agents/skills/archify"
     },
@@ -33,9 +33,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Leonxlnx/taste-skill.git",
-        "ref": "5217fb45be2c0b302f29c9cd31cbd3237501c684",
+        "ref": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
         "path": "skills/taste-skill",
-        "url": "https://github.com/Leonxlnx/taste-skill/tree/5217fb45be2c0b302f29c9cd31cbd3237501c684/skills/taste-skill"
+        "url": "https://github.com/Leonxlnx/taste-skill/tree/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b/skills/taste-skill"
       },
       "observed_at": "~/.codex/skills/design-taste-frontend"
     },
@@ -151,7 +151,7 @@
         "type": "well-known",
         "base_url": "https://open.feishu.cn",
         "url": "https://open.feishu.cn/.well-known/skills/lark-base/SKILL.md",
-        "package_digest": "sha256:30d0f21745654de06159411ea6da9f2b85ba670d78b3caf3acf69d5623104c9d"
+        "content_sha256": "sha256:81e70072e7e528079e284ab06bcbeda24d01d2429fa59f7cd11734462a64dc3c"
       },
       "observed_at": "~/.agents/skills/lark-base"
     },
@@ -163,7 +163,7 @@
         "type": "well-known",
         "base_url": "https://open.feishu.cn",
         "url": "https://open.feishu.cn/.well-known/skills/lark-shared/SKILL.md",
-        "package_digest": "sha256:d881dd0e17903b57aaa79375e6e69c70c3400dc31da75c4f5523be128701aa72"
+        "content_sha256": "sha256:1204200a3013b3031d8e54da2bc172a9b92f3f5d8baeaf13821614ef5bcaff10"
       },
       "observed_at": "~/.agents/skills/lark-shared"
     },
@@ -213,14 +213,14 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/MrGeDiao/shuorenhua.git",
-        "ref": "5a9eafefe03807404135f4d2ee4f42fe61d58759",
+        "ref": "9e6400d5e2cc050485c38fbf0dda682bce66c180",
         "path": ".",
         "files": [
           "SKILL.md",
           "references/editing-guide.md",
           "references/examples.md"
         ],
-        "url": "https://github.com/MrGeDiao/shuorenhua/tree/5a9eafefe03807404135f4d2ee4f42fe61d58759"
+        "url": "https://github.com/MrGeDiao/shuorenhua/tree/9e6400d5e2cc050485c38fbf0dda682bce66c180"
       },
       "observed_at": "~/.codex/skills/shuorenhua"
     },
