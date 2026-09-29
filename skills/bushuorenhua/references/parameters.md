@@ -33,24 +33,24 @@ audit=brief
 |---|---|---|---|
 | `scene` | `auto / chat / status / docs / public-writing / academic / marketing / mixed` | `auto` | 主场景与保守边界 |
 | `profile` | `generic / consultant / business / marketing / tech / academic / social / support / therapeutic / narrator / translationese / custom`，可用 `+` 叠加 | `generic` | 选哪些 AI 姿态族 |
-| `intensity` | `0–5` 或 `none / hint / light / standard / strong / saturated` | `3` | 改动范围和结构侵入程度 |
-| `density` | `none / sparse / low / medium / high / saturated` 或 `0–1` | `medium` | 每段 AI 信号的频率 |
-| `structure` | `preserve / signpost / outline / recompose` | `preserve` | 是否增加标题、分点和模板骨架 |
+| `intensity` | `0–5` 或 `none / hint / light / standard / strong / saturated` | `5` | 改动范围和结构侵入程度 |
+| `density` | `none / sparse / low / medium / high / saturated` 或 `0–1` | `saturated` | 每段 AI 信号的频率 |
+| `structure` | `preserve / signpost / outline / recompose` | `signpost` | 是否增加标题、分点和模板骨架 |
 | `length` | `preserve / compress:比例 / expand:比例` | `preserve` | 目标长度；只允许风格性增减 |
-| `meta` | `off / light / medium / heavy` | `medium` | “下面将……/这意味着……”等元话术 |
-| `jargon` | `off / light / business / tech / academic / mixed / heavy` | `light` | 黑话与名词化密度 |
+| `meta` | `off / light / medium / heavy` | `heavy` | “下面将……/这意味着……”等元话术 |
+| `jargon` | `off / light / business / tech / academic / mixed / heavy` | `heavy` | 黑话与名词化密度 |
 | `hedging` | `preserve / light / medium / heavy` | `preserve` | 模型式缓和语；严格保真时不改原情态 |
 | `certainty` | `preserve / soften / harden` | `preserve` | 断言强弱；严格保真只接受 `preserve` |
-| `repetition` | `preserve / moderate / restate / synonym-rotate` | `moderate` | 同一判断的复述和同义轮换 |
-| `rhetoric` | `off / light / contrast / uplift / slogan / mixed` | `light` | 二元对比、拔高、口号和展望 |
-| `praise` | `off / light / medium / heavy` | `off` | 对读者、作者或问题的认证式夸奖 |
+| `repetition` | `preserve / moderate / restate / synonym-rotate` | `restate` | 同一判断的复述和同义轮换 |
+| `rhetoric` | `off / light / contrast / uplift / slogan / mixed` | `mixed` | 二元对比、拔高、口号和展望 |
+| `praise` | `off / light / medium / heavy` | `light` | 对读者、作者或问题的认证式夸奖 |
 | `format` | `preserve / markdown / outline / table` | `preserve` | 标题、列表、加粗、表格排版 |
-| `punctuation` | `preserve / colon-semicolon / em-dash / parenthetical / mixed` | `preserve` | 破折号、冒号、分号、括号的 AI 痕迹 |
-| `rhythm` | `natural / even / formulaic` | `natural` | 句长与句式均匀度 |
-| `headings` | `off / section / every-paragraph` | `off` | 是否生成标题或小标题 |
-| `call_to_action` | `off / light / heavy` | `off` | “欢迎交流/建议收藏/如果需要我可以……” |
+| `punctuation` | `preserve / colon-semicolon / em-dash / parenthetical / mixed` | `mixed` | 破折号、冒号、分号、括号的 AI 痕迹 |
+| `rhythm` | `natural / even / formulaic` | `even` | 句长与句式均匀度 |
+| `headings` | `off / section / every-paragraph` | `section` | 是否生成标题或小标题 |
+| `call_to_action` | `off / light / heavy` | `light` | “欢迎交流/建议收藏/如果需要我可以……” |
 | `examples` | `off / reuse-only / synthetic` | `off` | 是否补例子；严格保真只允许 `reuse-only` |
-| `translationese` | `off / light / heavy` | `off` | 长定语、被动、`基于/通过/对于`等翻译腔 |
+| `translationese` | `off / light / heavy` | `light` | 长定语、被动、`基于/通过/对于`等翻译腔 |
 | `language_mix` | `preserve / zh-dominant / en-dominant / bilingual` | `preserve` | 中英混排比例；不翻译标识符和引用 |
 | `quotes_code` | `lock / comments-only / user-authorized` | `lock` | 引用、代码及代码旁说明的编辑边界 |
 | `meaning_guard` | `strict / rhetorical` | `strict` | 语义保护强度 |

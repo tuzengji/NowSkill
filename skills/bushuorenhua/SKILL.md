@@ -69,20 +69,30 @@ audit=brief
 ```text
 scene=auto
 profile=generic
-intensity=3
-density=medium
-structure=preserve
+intensity=5
+density=saturated
+structure=signpost
 length=preserve
-meta=medium
-jargon=light
+meta=heavy
+jargon=heavy
 hedging=preserve
-repetition=moderate
+certainty=preserve
+repetition=restate
 format=preserve
+punctuation=mixed
+rhythm=even
+headings=section
+call_to_action=light
+examples=off
+translationese=light
+language_mix=preserve
+quotes_code=lock
 meaning_guard=strict
 audit=off
+output=text
 ```
 
-`intensity` 控制改动幅度，`density` 控制 AI 信号的出现频率；两者不是同一个参数。`intensity=5` 也不能突破 `meaning_guard=strict`，只表示在不改命题的前提下增加更多外壳。
+默认档是高强度 AI 腔：`intensity=5`、`density=saturated`，并启用重元话术、重黑话、结构化提示、复述、拔高、均匀句式和轻量客服式收尾。`intensity` 控制改动幅度，`density` 控制 AI 信号的出现频率；两者不是同一个参数。即使默认很重，也不能突破 `meaning_guard=strict`。
 
 ## 执行顺序
 
