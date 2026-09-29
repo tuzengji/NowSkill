@@ -27,6 +27,16 @@
       "observed_at": "~/.agents/skills/archify"
     },
     {
+      "name": "bushuorenhua",
+      "ownership": "owned",
+      "enabled": true,
+      "source": {
+        "type": "bundled",
+        "path": "skills/bushuorenhua"
+      },
+      "observed_at": "~/.agents/skills/bushuorenhua"
+    },
+    {
       "name": "design-taste-frontend",
       "ownership": "third-party",
       "enabled": true,

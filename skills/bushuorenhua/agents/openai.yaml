@@ -1,0 +1,4 @@
+interface:
+  display_name: "不说人话"
+  short_description: "把文档改成可调的 AI 写作风格，同时严格保留原意"
+  default_prompt: "使用 $bushuorenhua，把这份文档改成指定强度的 AI 写作风格，同时严格保持原意。"
