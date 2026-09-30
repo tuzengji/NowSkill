@@ -37,6 +37,19 @@
       "observed_at": "~/.agents/skills/bushuorenhua"
     },
     {
+      "name": "clone-website",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/JCodesMore/ai-website-cloner-template.git",
+        "ref": "f50066df3f4bdca057d3b239be6f49f17724bb13",
+        "path": ".agents/skills/clone-website",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template/tree/f50066df3f4bdca057d3b239be6f49f17724bb13/.agents/skills/clone-website"
+      },
+      "observed_at": "~/.agents/skills/clone-website"
+    },
+    {
       "name": "design-taste-frontend",
       "ownership": "third-party",
       "enabled": true,

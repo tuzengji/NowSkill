@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前清单包含 18 个启用中的 Skill，其中 1 个为自有 Skill，17 个来自第三方。
+当前清单包含 19 个启用中的 Skill，其中 1 个为自有 Skill，18 个来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -71,6 +71,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | Skill | 上游 |
 | --- | --- |
 | `archify` | [tt-a1i/archify](https://github.com/tt-a1i/archify) |
+| `clone-website` | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template/tree/f50066df3f4bdca057d3b239be6f49f17724bb13/.agents/skills/clone-website) |
 | `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | `lark-base`, `lark-shared` | [Feishu well-known skills](https://open.feishu.cn/.well-known/skills/index.json) |
 | `design-taste-frontend` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
