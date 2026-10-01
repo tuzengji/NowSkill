@@ -260,5 +260,71 @@
       },
       "observed_at": "~/.codex/skills/tourmind-booking"
     }
+  ],
+  "project_skills": [
+    {
+      "name": "academic-paper",
+      "ownership": "third-party",
+      "scope": "project",
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Imbad0202/academic-research-skills.git",
+        "ref": "333fd5eba58e28951ea89f12f03fefd78c877a47",
+        "path": "academic-paper",
+        "url": "https://github.com/Imbad0202/academic-research-skills/tree/333fd5eba58e28951ea89f12f03fefd78c877a47/academic-paper",
+        "skill_sha256": "beb129d9cd1a5640522e4bfe570877e0684fb9a8fcea16290ecc2a8fb6a3f0fd"
+      },
+      "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/academic-paper",
+      "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
+      "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "ownership": "third-party",
+      "scope": "project",
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Imbad0202/academic-research-skills.git",
+        "ref": "333fd5eba58e28951ea89f12f03fefd78c877a47",
+        "path": "academic-paper-reviewer",
+        "url": "https://github.com/Imbad0202/academic-research-skills/tree/333fd5eba58e28951ea89f12f03fefd78c877a47/academic-paper-reviewer",
+        "skill_sha256": "25dd95645ff83a84ea7de7383e8bc241d2e59a4a22f3ddc146f7fdbf88ba601d"
+      },
+      "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/academic-paper-reviewer",
+      "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
+      "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
+    },
+    {
+      "name": "deep-research",
+      "ownership": "third-party",
+      "scope": "project",
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Imbad0202/academic-research-skills.git",
+        "ref": "333fd5eba58e28951ea89f12f03fefd78c877a47",
+        "path": "deep-research",
+        "url": "https://github.com/Imbad0202/academic-research-skills/tree/333fd5eba58e28951ea89f12f03fefd78c877a47/deep-research",
+        "skill_sha256": "da47345ad4e3a3baf7aa64a5f4f63dd70d222a8856c45a2001a4166c6fd855fa"
+      },
+      "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/deep-research",
+      "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
+      "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
+    },
+    {
+      "name": "academic-pipeline",
+      "ownership": "third-party",
+      "scope": "project",
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Imbad0202/academic-research-skills.git",
+        "ref": "333fd5eba58e28951ea89f12f03fefd78c877a47",
+        "path": "academic-pipeline",
+        "url": "https://github.com/Imbad0202/academic-research-skills/tree/333fd5eba58e28951ea89f12f03fefd78c877a47/academic-pipeline",
+        "skill_sha256": "ecf52dea6a6ddcdf18744b3f504db749ab30f80175d4d84e81986204ac96e4ef"
+      },
+      "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/academic-pipeline",
+      "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
+      "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
+    }
   ]
 }

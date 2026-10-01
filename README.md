@@ -83,6 +83,21 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `shuorenhua` | [MrGeDiao/shuorenhua](https://github.com/MrGeDiao/shuorenhua) |
 
+### 项目级 Skill
+
+论文项目单独安装了 [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)，锁定提交 `333fd5eba58e28951ea89f12f03fefd78c877a47`。
+
+| Skill | 项目内入口 |
+| --- | --- |
+| `academic-paper` | `.agents/skills/academic-paper` |
+| `academic-paper-reviewer` | `.agents/skills/academic-paper-reviewer` |
+| `deep-research` | `.agents/skills/deep-research` |
+| `academic-pipeline` | `.agents/skills/academic-pipeline` |
+
+项目目录为 `~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会`。四个入口链接到项目内同一份完整上游快照，保留共享规则和脚本的相对路径。记录见 `skills.lock.json` 的 `project_skills`；本仓库仅保存来源、版本、路径和哈希，不包含第三方源码或论文。
+
+这些项目项不属于用户级 `skills` 同步列表，`scripts/sync.py` 按既有规则保留项目级安装，不把它们迁入全局目录。迁移这个论文项目时应按锁定提交恢复完整上游目录及四个入口，不能只复制单个 `SKILL.md`。当前记录另有 4 个项目级 Skill。
+
 完整机器可读清单见 `skills.lock.json`。
 
 ## 给 Agent 的一句话
