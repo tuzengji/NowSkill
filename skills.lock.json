@@ -89,6 +89,20 @@
       "observed_at": "~/.codex/skills/i-have-adhd"
     },
     {
+      "name": "impeccable",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/pbakaus/impeccable.git",
+        "ref": "d631a8827f99414d2b6daba4ef08b7f8701751d7",
+        "path": ".agents/skills/impeccable",
+        "url": "https://github.com/pbakaus/impeccable/tree/d631a8827f99414d2b6daba4ef08b7f8701751d7/.agents/skills/impeccable",
+        "skill_sha256": "58c0252bca04521de87007aeb495f7ec99dc4c7341bc890fe82b6d577573af91"
+      },
+      "observed_at": "~/.agents/skills/impeccable"
+    },
+    {
       "name": "lark-base",
       "ownership": "third-party",
       "enabled": true,
