@@ -233,6 +233,20 @@
         "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/47f22676ea7214328a8a1cac0932a40638ca4f49/skills/tourmind-booking"
       },
       "observed_at": "~/.codex/skills/tourmind-booking"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "ref": "50d8a7de0900119855614541f15a1a616691eb33",
+        "path": ".claude/skills/ui-ux-pro-max",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max",
+        "content_sha256": "sha256:32e7c491f8e0498867961216797fb3038933cfb0647bf957b6bc27f2af6b1bfe"
+      },
+      "observed_at": "~/.agents/skills/ui-ux-pro-max"
     }
   ],
   "project_skills": [
