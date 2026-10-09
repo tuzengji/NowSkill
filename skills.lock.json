@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-09-23",
+  "snapshot_date": "2026-10-09",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -14,19 +14,6 @@
   },
   "skills": [
     {
-      "name": "archify",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/tt-a1i/archify.git",
-        "ref": "9e35d2b0b39b155553ba9fcfe0b4f2a5198dd993",
-        "path": "archify",
-        "url": "https://github.com/tt-a1i/archify/tree/9e35d2b0b39b155553ba9fcfe0b4f2a5198dd993/archify"
-      },
-      "observed_at": "~/.agents/skills/archify"
-    },
-    {
       "name": "bushuorenhua",
       "ownership": "owned",
       "enabled": true,
@@ -35,19 +22,6 @@
         "path": "skills/bushuorenhua"
       },
       "observed_at": "~/.agents/skills/bushuorenhua"
-    },
-    {
-      "name": "clone-website",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/JCodesMore/ai-website-cloner-template.git",
-        "ref": "f50066df3f4bdca057d3b239be6f49f17724bb13",
-        "path": ".agents/skills/clone-website",
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template/tree/f50066df3f4bdca057d3b239be6f49f17724bb13/.agents/skills/clone-website"
-      },
-      "observed_at": "~/.agents/skills/clone-website"
     },
     {
       "name": "design-taste-frontend",
