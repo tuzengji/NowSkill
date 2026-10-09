@@ -24,32 +24,6 @@
       "observed_at": "~/.agents/skills/bushuorenhua"
     },
     {
-      "name": "design-taste-frontend",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/Leonxlnx/taste-skill.git",
-        "ref": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
-        "path": "skills/taste-skill",
-        "url": "https://github.com/Leonxlnx/taste-skill/tree/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b/skills/taste-skill"
-      },
-      "observed_at": "~/.codex/skills/design-taste-frontend"
-    },
-    {
-      "name": "figma",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/openai/skills.git",
-        "ref": "49f948faa9258a0c61caceaf225e179651397431",
-        "path": "skills/.curated/figma",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/figma"
-      },
-      "observed_at": "~/.codex/skills/figma"
-    },
-    {
       "name": "find-skills",
       "ownership": "third-party",
       "enabled": true,
@@ -61,19 +35,6 @@
         "url": "https://github.com/vercel-labs/skills/tree/7407f3893ad4dceab546ac002c3ef806e4000c73/skills/find-skills"
       },
       "observed_at": "~/.agents/skills/find-skills"
-    },
-    {
-      "name": "flight-booking-ai",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/tourmind-com/Tourmind-Booking-Skills.git",
-        "ref": "47f22676ea7214328a8a1cac0932a40638ca4f49",
-        "path": "skills/flight-booking-ai",
-        "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/47f22676ea7214328a8a1cac0932a40638ca4f49/skills/flight-booking-ai"
-      },
-      "observed_at": "~/.codex/skills/flight-booking-ai"
     },
     {
       "name": "grill-me",
@@ -100,19 +61,6 @@
         "url": "https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/productivity/grilling"
       },
       "observed_at": "~/.codex/skills/grilling"
-    },
-    {
-      "name": "hatch-pet",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/openai/skills.git",
-        "ref": "49f948faa9258a0c61caceaf225e179651397431",
-        "path": "skills/.curated/hatch-pet",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/hatch-pet"
-      },
-      "observed_at": "~/.codex/skills/hatch-pet"
     },
     {
       "name": "humanizer",
@@ -233,20 +181,6 @@
         "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/47f22676ea7214328a8a1cac0932a40638ca4f49/skills/tourmind-booking"
       },
       "observed_at": "~/.codex/skills/tourmind-booking"
-    },
-    {
-      "name": "ui-ux-pro-max",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
-        "ref": "50d8a7de0900119855614541f15a1a616691eb33",
-        "path": ".claude/skills/ui-ux-pro-max",
-        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max",
-        "content_sha256": "sha256:32e7c491f8e0498867961216797fb3038933cfb0647bf957b6bc27f2af6b1bfe"
-      },
-      "observed_at": "~/.agents/skills/ui-ux-pro-max"
     }
   ],
   "project_skills": [
