@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-09",
+  "snapshot_date": "2026-10-11",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -74,6 +74,20 @@
         "url": "https://github.com/blader/humanizer/tree/9862685f575c65a8247f90369951df1b3416e3d6"
       },
       "observed_at": "~/.codex/skills/humanizer"
+    },
+    {
+      "name": "humanizer-zh",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/op7418/Humanizer-zh.git",
+        "ref": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+        "path": ".",
+        "url": "https://github.com/op7418/Humanizer-zh/tree/f4518a8eab97b8bfebc66a89d34320a89bef6930",
+        "skill_sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df"
+      },
+      "observed_at": "~/.agents/skills/humanizer-zh"
     },
     {
       "name": "i-have-adhd",
