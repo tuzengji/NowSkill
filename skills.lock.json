@@ -180,24 +180,6 @@
       "observed_at": "~/.agents/skills/ponytail"
     },
     {
-      "name": "shuorenhua",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/MrGeDiao/shuorenhua.git",
-        "ref": "9e6400d5e2cc050485c38fbf0dda682bce66c180",
-        "path": ".",
-        "files": [
-          "SKILL.md",
-          "references/editing-guide.md",
-          "references/examples.md"
-        ],
-        "url": "https://github.com/MrGeDiao/shuorenhua/tree/9e6400d5e2cc050485c38fbf0dda682bce66c180"
-      },
-      "observed_at": "~/.codex/skills/shuorenhua"
-    },
-    {
       "name": "tourmind-booking",
       "ownership": "third-party",
       "enabled": true,
