@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 125 个 Skill，其中 1 个为自有 Skill，124 个来自第三方。
+当前用户级清单包含 15 个 Skill，其中 1 个为自有 Skill，14 个来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -80,7 +80,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | `i-have-adhd` | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 | `ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
-| Designer Skills 的 111 个技能（9 个设计分组） | [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills)；含图标系统、配色、插画风格和视觉评审等，逐项来源与锁定版本见清单 |
+| `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |
 
 ### 项目级 Skill
 
