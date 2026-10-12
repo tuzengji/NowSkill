@@ -58,9 +58,10 @@
         "repository": "https://github.com/mattpocock/skills.git",
         "ref": "49dd158d1076134a641b33efb035946536778336",
         "path": "skills/productivity/grilling",
-        "url": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/grilling"
+        "url": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/grilling",
+        "skill_sha256": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15"
       },
-      "observed_at": "~/.codex/skills/grilling"
+      "observed_at": "~/.agents/skills/grilling"
     },
     {
       "name": "humanizer",
@@ -71,9 +72,10 @@
         "repository": "https://github.com/blader/humanizer.git",
         "ref": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
         "path": ".",
-        "url": "https://github.com/blader/humanizer/tree/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8"
+        "url": "https://github.com/blader/humanizer/tree/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+        "skill_sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
       },
-      "observed_at": "~/.codex/skills/humanizer"
+      "observed_at": "~/.agents/skills/humanizer"
     },
     {
       "name": "humanizer-zh",
@@ -98,23 +100,10 @@
         "repository": "https://github.com/ayghri/i-have-adhd.git",
         "ref": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
         "path": "skills/i-have-adhd",
-        "url": "https://github.com/ayghri/i-have-adhd/tree/1ecea1993b7fce257ffbd686c070948b5e07eda6/skills/i-have-adhd"
+        "url": "https://github.com/ayghri/i-have-adhd/tree/1ecea1993b7fce257ffbd686c070948b5e07eda6/skills/i-have-adhd",
+        "skill_sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3"
       },
-      "observed_at": "~/.codex/skills/i-have-adhd"
-    },
-    {
-      "name": "impeccable",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/pbakaus/impeccable.git",
-        "ref": "c63b8dd7dd5a5f3c32eaabe1af76d0694f863ed2",
-        "path": ".agents/skills/impeccable",
-        "url": "https://github.com/pbakaus/impeccable/tree/c63b8dd7dd5a5f3c32eaabe1af76d0694f863ed2/.agents/skills/impeccable",
-        "skill_sha256": "58c0252bca04521de87007aeb495f7ec99dc4c7341bc890fe82b6d577573af91"
-      },
-      "observed_at": "~/.agents/skills/impeccable"
+      "observed_at": "~/.agents/skills/i-have-adhd"
     },
     {
       "name": "lark-base",
@@ -175,7 +164,8 @@
         "repository": "https://github.com/DietrichGebert/ponytail.git",
         "ref": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf",
         "path": "skills/ponytail",
-        "url": "https://github.com/DietrichGebert/ponytail/tree/9b58c1ffb790c075ca32e70a89cf1d80588f4abf/skills/ponytail"
+        "url": "https://github.com/DietrichGebert/ponytail/tree/9b58c1ffb790c075ca32e70a89cf1d80588f4abf/skills/ponytail",
+        "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
       },
       "observed_at": "~/.agents/skills/ponytail"
     },
