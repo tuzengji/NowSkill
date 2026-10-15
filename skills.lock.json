@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-12",
+  "snapshot_date": "2026-10-15",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -14,16 +14,6 @@
   },
   "skills": [
     {
-      "name": "bushuorenhua",
-      "ownership": "owned",
-      "enabled": true,
-      "source": {
-        "type": "bundled",
-        "path": "skills/bushuorenhua"
-      },
-      "observed_at": "~/.agents/skills/bushuorenhua"
-    },
-    {
       "name": "find-skills",
       "ownership": "third-party",
       "enabled": true,
@@ -35,19 +25,6 @@
         "url": "https://github.com/vercel-labs/skills/tree/13e4063a1cf913f5606d57d42ab83a86f5001e04/skills/find-skills"
       },
       "observed_at": "~/.agents/skills/find-skills"
-    },
-    {
-      "name": "grill-me",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "49dd158d1076134a641b33efb035946536778336",
-        "path": "skills/productivity/grill-me",
-        "url": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/grill-me"
-      },
-      "observed_at": "~/.codex/skills/grill-me"
     },
     {
       "name": "grilling",
@@ -92,20 +69,6 @@
       "observed_at": "~/.agents/skills/humanizer-zh"
     },
     {
-      "name": "i-have-adhd",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/ayghri/i-have-adhd.git",
-        "ref": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
-        "path": "skills/i-have-adhd",
-        "url": "https://github.com/ayghri/i-have-adhd/tree/1ecea1993b7fce257ffbd686c070948b5e07eda6/skills/i-have-adhd",
-        "skill_sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3"
-      },
-      "observed_at": "~/.agents/skills/i-have-adhd"
-    },
-    {
       "name": "lark-base",
       "ownership": "third-party",
       "enabled": true,
@@ -128,19 +91,6 @@
         "content_sha256": "sha256:1204200a3013b3031d8e54da2bc172a9b92f3f5d8baeaf13821614ef5bcaff10"
       },
       "observed_at": "~/.agents/skills/lark-shared"
-    },
-    {
-      "name": "pdf",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/openai/skills.git",
-        "ref": "49f948faa9258a0c61caceaf225e179651397431",
-        "path": "skills/.curated/pdf",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf"
-      },
-      "observed_at": "~/.codex/skills/pdf"
     },
     {
       "name": "playwright",
@@ -168,19 +118,6 @@
         "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
       },
       "observed_at": "~/.agents/skills/ponytail"
-    },
-    {
-      "name": "tourmind-booking",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/tourmind-com/Tourmind-Booking-Skills.git",
-        "ref": "a9a25bdb2f48865bc0548af729e2d4fc733ae3c5",
-        "path": "skills/tourmind-booking",
-        "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills/tree/a9a25bdb2f48865bc0548af729e2d4fc733ae3c5/skills/tourmind-booking"
-      },
-      "observed_at": "~/.codex/skills/tourmind-booking"
     },
     {
       "name": "logo-design",

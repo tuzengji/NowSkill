@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 14 个 Skill，其中 1 个为自有 Skill，13 个来自第三方。
+当前用户级清单包含 9 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -60,24 +60,16 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 ## 收录内容
 
-### 自有 Skill
-
-| Skill | 用途 |
-| --- | --- |
-| `bushuorenhua` | 把文档改成可调的 AI 写作风格，同时严格保留原意 |
-
 ### 第三方 Skill
 
 | Skill | 上游 |
 | --- | --- |
 | `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | `lark-base`, `lark-shared` | [Feishu well-known skills](https://open.feishu.cn/.well-known/skills/index.json) |
-| `pdf`, `playwright` | [openai/skills](https://github.com/openai/skills) |
-| `tourmind-booking` | [tourmind-com/Tourmind-Booking-Skills](https://github.com/tourmind-com/Tourmind-Booking-Skills) |
-| `grill-me`, `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| `playwright` | [openai/skills](https://github.com/openai/skills) |
+| `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
-| `i-have-adhd` | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 | `ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |
 
