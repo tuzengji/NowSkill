@@ -66,7 +66,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | --- | --- | --- |
 | `website-design` | `~/LovingHeart/以手予爱/网站设计Skill/website-design` | [skills/owned/website-design](skills/owned/website-design) |
 
-网站设计 Skill 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器真实展开态、原生菜单主题限制、可访问交互及桌面与移动端验收要求。
+网站设计 Skill 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器展开态与移动端验收要求，并严格禁止卡片单侧强调线、标题旁竖条及其伪元素／渐变变体；弹窗、子任务与空状态同样适用。
 
 ### 第三方 Skill
 
