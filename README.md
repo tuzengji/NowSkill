@@ -60,6 +60,14 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 ## 收录内容
 
+### 自有项目级 Skill
+
+| Skill | 项目内入口 | 仓库源码 |
+| --- | --- | --- |
+| `website-design` | `~/LovingHeart/以手予爱/网站设计Skill/website-design` | [skills/owned/website-design](skills/owned/website-design) |
+
+网站设计 Skill 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器真实展开态、原生菜单主题限制、可访问交互及桌面与移动端验收要求。
+
 ### 第三方 Skill
 
 | Skill | 上游 |
@@ -86,7 +94,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 项目目录为 `~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会`。四个入口链接到项目内同一份完整上游快照，保留共享规则和脚本的相对路径。记录见 `skills.lock.json` 的 `project_skills`；本仓库仅保存来源、版本、路径和哈希，不包含第三方源码或论文。
 
-这些项目项不属于用户级 `skills` 同步列表，`scripts/sync.py` 按既有规则保留项目级安装，不把它们迁入全局目录。迁移这个论文项目时应按锁定提交恢复完整上游目录及四个入口，不能只复制单个 `SKILL.md`。当前记录另有 4 个项目级 Skill。
+这些项目项不属于用户级 `skills` 同步列表，`scripts/sync.py` 按既有规则保留项目级安装，不把它们迁入全局目录。迁移这个论文项目时应按锁定提交恢复完整上游目录及四个入口，不能只复制单个 `SKILL.md`。当前记录另有 5 个项目级 Skill：上述 4 个论文 Skill 和 1 个自有网站设计 Skill。
 
 完整机器可读清单见 `skills.lock.json`。
 

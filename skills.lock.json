@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-15",
+  "snapshot_date": "2026-10-16",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -198,6 +198,18 @@
       "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/academic-pipeline",
       "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
       "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
+    },
+    {
+      "name": "website-design",
+      "ownership": "owned",
+      "scope": "project",
+      "source": {
+        "type": "bundled",
+        "path": "skills/owned/website-design",
+        "content_sha256": "sha256:e42034be414b2276bce0328aecc84c5edac9177bf9c82661ebd7f45a9c19acdd"
+      },
+      "observed_at": "~/LovingHeart/以手予爱/网站设计Skill/website-design",
+      "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."
     }
   ]
 }

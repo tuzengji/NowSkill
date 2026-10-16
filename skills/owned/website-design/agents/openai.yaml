@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站设计"
+  short_description: "按个人审美标准设计与改进网站，兼顾清晰表达、视觉质感和流畅交互"
+  default_prompt: "请使用 $website-design，按我的通用审美标准完成当前网站的设计或改版，并检查桌面和手机体验。"
