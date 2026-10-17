@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-16",
+  "snapshot_date": "2026-10-17",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -206,7 +206,7 @@
       "source": {
         "type": "bundled",
         "path": "skills/owned/website-design",
-        "content_sha256": "sha256:61cad08fd26c14053b46fc06080a60e2a2f4816e8e5e96beb8283376ab462134"
+        "content_sha256": "sha256:149cf8d6a3ad9d583a52e63abddd78e5e91e86c47ecc0917e25dd0d88c6c6a8e"
       },
       "observed_at": "~/LovingHeart/以手予爱/网站设计Skill/website-design",
       "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."
