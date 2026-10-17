@@ -206,7 +206,7 @@
       "source": {
         "type": "bundled",
         "path": "skills/owned/website-design",
-        "content_sha256": "sha256:afaf0529d9b68b1f2d0fc0e2d0bfcce11cede42509650a21f86fd9232f285941"
+        "content_sha256": "sha256:27399f702bd4d8ab3002975173391172ff816c11072c8053a51f45f181cab0b8"
       },
       "observed_at": "~/LovingHeart/以手予爱/网站设计Skill/website-design",
       "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."
