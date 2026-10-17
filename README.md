@@ -64,9 +64,9 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 | Skill | 项目内入口 | 仓库源码 |
 | --- | --- | --- |
-| `website-design` | `~/LovingHeart/以手予爱/网站设计Skill/website-design` | [skills/owned/website-design](skills/owned/website-design) |
+| `neat-design` | `~/LovingHeart/以手予爱/Neat-Design-Skill/neat-design` | [skills/owned/neat-design](skills/owned/neat-design) |
 
-网站设计 Skill 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器展开态与移动端验收要求，并严格禁止卡片单侧强调线、标题旁竖条及其伪元素／渐变变体；弹窗、子任务与空状态同样适用。 同日将“页面文案只保留对用户有用的信息”列为高优先级要求和必检项：逐页核查相关状态，无用的技术与运维说明移入项目文档，同时保留隐私、必要限制及错误恢复提示。
+[Neat Design](https://github.com/tuzengji/neat-design-skill) 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器展开态与移动端验收要求，并严格禁止卡片单侧强调线、标题旁竖条及其伪元素／渐变变体；弹窗、子任务与空状态同样适用。 同日将“页面文案只保留对用户有用的信息”列为高优先级要求和必检项：逐页核查相关状态，无用的技术与运维说明移入项目文档，同时保留隐私、必要限制及错误恢复提示。
 
 2026 年 10 月 17 日将信息类网站的访问性能列为高优先级要求：首屏优先，列表分批、详情与重型功能按需加载，公开内容不被无关初始化阻塞；分页后的搜索、导出和记录恢复保持完整，并以实际访问测试验收。具体批次和速度目标按项目确定。
 
@@ -75,6 +75,8 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 同日补充用户确认的九项通用规则：按钮文案与留白比例、精简重复入口、详情查看保留上下文、手机预填不自动唤起键盘、面向用户任务的默认排序、保存清单与草稿、品牌标识覆盖相关入口、功能按钮兑现承诺，以及具体而有变化的情感文案。审美标准与验收清单同步更新，保持项目级入口和既有任务范围。
 
 同日确认通用默认字体：未指定时使用 `HarmonyOS Sans SC`，用户明确指定或已确认的品牌字体优先。覆盖正文、标题、控件、菜单和弹窗，实际加载、回退和加载稳定性纳入检查；局部维护不顺带替换范围外的既有字体。
+
+2026 年 10 月 17 日以 **Neat Design** 发布到公开仓库 `tuzengji/neat-design-skill`，提供中英文 README；本机目录改为 `Neat-Design-Skill` 并作为该仓库根目录，Skill 标识统一为 `neat-design`。本清单保留项目级镜像与源仓库提交，原始聊天引用资料仅留在本地。
 
 ### 第三方 Skill
 

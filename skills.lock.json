@@ -200,15 +200,18 @@
       "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
     },
     {
-      "name": "website-design",
+      "name": "neat-design",
       "ownership": "owned",
       "scope": "project",
       "source": {
         "type": "bundled",
-        "path": "skills/owned/website-design",
-        "content_sha256": "sha256:45894878cd75a931c3981b234cd1902ff64f9baedb65902c0436d0d1d25ac3f1"
+        "path": "skills/owned/neat-design",
+        "content_sha256": "sha256:b63b61c276d2152beec7ef5eeeab200973684cfc1285a17e4ca2d6e8df637d55",
+        "repository": "https://github.com/tuzengji/neat-design-skill.git",
+        "ref": "b16ba5f79b7e9ae55fbc5800910e069b97630fff",
+        "url": "https://github.com/tuzengji/neat-design-skill/tree/b16ba5f79b7e9ae55fbc5800910e069b97630fff/neat-design"
       },
-      "observed_at": "~/LovingHeart/以手予爱/网站设计Skill/website-design",
+      "observed_at": "~/LovingHeart/以手予爱/Neat-Design-Skill/neat-design",
       "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."
     }
   ]

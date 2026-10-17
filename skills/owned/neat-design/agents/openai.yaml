@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neat Design"
+  short_description: "Clean web design, clear content, and smooth interactions"
+  default_prompt: "Use $neat-design to design or improve this website, then check its desktop and mobile experience."
