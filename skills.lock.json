@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-17",
+  "snapshot_date": "2026-10-20",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -206,10 +206,10 @@
       "source": {
         "type": "bundled",
         "path": "skills/owned/neat-design",
-        "content_sha256": "sha256:b63b61c276d2152beec7ef5eeeab200973684cfc1285a17e4ca2d6e8df637d55",
+        "content_sha256": "sha256:37642d6e3af5bb05c89d6bc3ec72463e55215b9872a3b389c0135dfe6681bb6b",
         "repository": "https://github.com/tuzengji/neat-design-skill.git",
-        "ref": "b16ba5f79b7e9ae55fbc5800910e069b97630fff",
-        "url": "https://github.com/tuzengji/neat-design-skill/tree/b16ba5f79b7e9ae55fbc5800910e069b97630fff/neat-design"
+        "ref": "1e9e7f329c2eab9b33f6506d7c3351ab9e7fa2cd",
+        "url": "https://github.com/tuzengji/neat-design-skill/tree/1e9e7f329c2eab9b33f6506d7c3351ab9e7fa2cd/neat-design"
       },
       "observed_at": "~/LovingHeart/以手予爱/Neat-Design-Skill/neat-design",
       "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."

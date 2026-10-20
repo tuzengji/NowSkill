@@ -78,6 +78,8 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 2026 年 10 月 17 日以 **Neat Design** 发布到公开仓库 `tuzengji/neat-design-skill`，提供中英文 README；本机目录改为 `Neat-Design-Skill` 并作为该仓库根目录，Skill 标识统一为 `neat-design`。本清单保留项目级镜像与源仓库提交，原始聊天引用资料仅留在本地。
 
+2026 年 10 月 20 日细化通用手机布局要求：按内容优先级重新组织信息和操作，避免直接挤压桌面多列、标题碎行、按钮拥挤及悬浮导航遮挡。验收覆盖不同宽度、短屏、长内容、展开状态和滚动操作；无横向溢出不是唯一标准。布局形式与导航方式按页面用途确定，不固定为某个网站的卡片或像素参数。
+
 ### 第三方 Skill
 
 | Skill | 上游 |
