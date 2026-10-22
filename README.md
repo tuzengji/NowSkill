@@ -92,7 +92,6 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | `ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |
-
 | `nature-figure`, `nature-writing`, `nature-shared` | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)；科学绘图、论文写作及共享参考，锁定版本见清单 |
 
 ### 项目级 Skill
