@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-20",
+  "snapshot_date": "2026-10-22",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -132,6 +132,48 @@
         "skill_sha256": "65ec4bd58732e8cc11e244724e8666de78764b973f6d3b03b233904639cf47c6"
       },
       "observed_at": "~/.agents/skills/logo-design"
+    },
+    {
+      "name": "nature-figure",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "path": "skills/nature-figure",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-figure",
+        "skill_sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4"
+      },
+      "observed_at": "~/.agents/skills/nature-figure"
+    },
+    {
+      "name": "nature-writing",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "path": "skills/nature-writing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-writing",
+        "skill_sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
+      },
+      "observed_at": "~/.agents/skills/nature-writing"
+    },
+    {
+      "name": "nature-shared",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "path": "skills/nature-shared",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-shared",
+        "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
+      },
+      "observed_at": "~/.agents/skills/nature-shared"
     }
   ],
   "project_skills": [
