@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-22",
+  "snapshot_date": "2026-10-26",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -174,6 +174,20 @@
         "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
       },
       "observed_at": "~/.agents/skills/nature-shared"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "ref": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+        "path": ".claude/skills/ui-ux-pro-max",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/28b3b8dee8c976df4fa3e94aed4e092ad43fcb03/.claude/skills/ui-ux-pro-max",
+        "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+      },
+      "observed_at": "~/.agents/skills/ui-ux-pro-max"
     }
   ],
   "project_skills": [
