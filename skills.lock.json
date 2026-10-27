@@ -107,6 +107,33 @@
       "observed_at": "~/.agents/skills/lark-shared"
     },
     {
+      "name": "playwright",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/playwright",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright"
+      },
+      "observed_at": "~/.codex/skills/playwright"
+    },
+    {
+      "name": "ponytail",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/DietrichGebert/ponytail.git",
+        "ref": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf",
+        "path": "skills/ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail/tree/9b58c1ffb790c075ca32e70a89cf1d80588f4abf/skills/ponytail",
+        "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
+      },
+      "observed_at": "~/.agents/skills/ponytail"
+    },
+    {
       "name": "logo-design",
       "ownership": "third-party",
       "enabled": true,
@@ -135,20 +162,6 @@
       "observed_at": "~/.agents/skills/nature-figure"
     },
     {
-      "name": "nature-shared",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
-        "path": "skills/nature-shared",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-shared",
-        "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
-      },
-      "observed_at": "~/.agents/skills/nature-shared"
-    },
-    {
       "name": "nature-writing",
       "ownership": "third-party",
       "enabled": true,
@@ -163,31 +176,18 @@
       "observed_at": "~/.agents/skills/nature-writing"
     },
     {
-      "name": "playwright",
+      "name": "nature-shared",
       "ownership": "third-party",
       "enabled": true,
       "source": {
         "type": "github",
-        "repository": "https://github.com/openai/skills.git",
-        "ref": "49f948faa9258a0c61caceaf225e179651397431",
-        "path": "skills/.curated/playwright",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright"
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "path": "skills/nature-shared",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-shared",
+        "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
       },
-      "observed_at": "~/.codex/skills/playwright"
-    },
-    {
-      "name": "ponytail",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/DietrichGebert/ponytail.git",
-        "ref": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf",
-        "path": "skills/ponytail",
-        "url": "https://github.com/DietrichGebert/ponytail/tree/9b58c1ffb790c075ca32e70a89cf1d80588f4abf/skills/ponytail",
-        "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
-      },
-      "observed_at": "~/.agents/skills/ponytail"
+      "observed_at": "~/.agents/skills/nature-shared"
     },
     {
       "name": "ui-ux-pro-max",
