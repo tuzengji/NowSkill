@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-27",
+  "snapshot_date": "2026-10-30",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -132,6 +132,20 @@
         "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
       },
       "observed_at": "~/.agents/skills/ponytail"
+    },
+    {
+      "name": "ppt-master",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/hugohe3/ppt-master.git",
+        "ref": "15baa7c570f12c78cd9ac6ead897724571e32e87",
+        "path": "skills/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master/tree/15baa7c570f12c78cd9ac6ead897724571e32e87/skills/ppt-master",
+        "skill_sha256": "39594a07cd92e894bfc61242034c78128fd2dfd94081ba3fd9a60d65dad835d5"
+      },
+      "observed_at": "~/.agents/skills/ppt-master"
     },
     {
       "name": "logo-design",
