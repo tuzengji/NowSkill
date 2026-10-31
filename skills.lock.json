@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-30",
+  "snapshot_date": "2026-10-31",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -34,9 +34,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/vercel-labs/skills.git",
-        "ref": "13e4063a1cf913f5606d57d42ab83a86f5001e04",
+        "ref": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8",
         "path": "skills/find-skills",
-        "url": "https://github.com/vercel-labs/skills/tree/13e4063a1cf913f5606d57d42ab83a86f5001e04/skills/find-skills"
+        "url": "https://github.com/vercel-labs/skills/tree/92a9a34ac3bf88e695e468b90c7bf32f163d32c8/skills/find-skills",
+        "skill_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
       },
       "observed_at": "~/.agents/skills/find-skills"
     },
@@ -47,10 +48,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "49dd158d1076134a641b33efb035946536778336",
+        "ref": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
         "path": "skills/productivity/grilling",
-        "url": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/grilling",
-        "skill_sha256": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15"
+        "url": "https://github.com/mattpocock/skills/tree/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grilling",
+        "skill_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2"
       },
       "observed_at": "~/.agents/skills/grilling"
     },
@@ -61,9 +62,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/blader/humanizer.git",
-        "ref": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+        "ref": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
         "path": ".",
-        "url": "https://github.com/blader/humanizer/tree/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+        "url": "https://github.com/blader/humanizer/tree/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
         "skill_sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
       },
       "observed_at": "~/.agents/skills/humanizer"
@@ -90,7 +91,7 @@
         "type": "well-known",
         "base_url": "https://open.feishu.cn",
         "url": "https://open.feishu.cn/.well-known/skills/lark-base/SKILL.md",
-        "content_sha256": "sha256:81e70072e7e528079e284ab06bcbeda24d01d2429fa59f7cd11734462a64dc3c"
+        "content_sha256": "sha256:954227d34c7d1e3e09542e39de4535a5eec890898763185c1a155522b62df512"
       },
       "observed_at": "~/.agents/skills/lark-base"
     },
@@ -115,23 +116,10 @@
         "repository": "https://github.com/openai/skills.git",
         "ref": "49f948faa9258a0c61caceaf225e179651397431",
         "path": "skills/.curated/playwright",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright"
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
+        "skill_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
       },
-      "observed_at": "~/.codex/skills/playwright"
-    },
-    {
-      "name": "ponytail",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/DietrichGebert/ponytail.git",
-        "ref": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf",
-        "path": "skills/ponytail",
-        "url": "https://github.com/DietrichGebert/ponytail/tree/9b58c1ffb790c075ca32e70a89cf1d80588f4abf/skills/ponytail",
-        "skill_sha256": "ba68ff26239c3c3b05b2a9a47ee0d9a6b93a69639a2555ec87a5d44bffaf2f0c"
-      },
-      "observed_at": "~/.agents/skills/ponytail"
+      "observed_at": "~/.agents/skills/playwright"
     },
     {
       "name": "ppt-master",
@@ -140,10 +128,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/hugohe3/ppt-master.git",
-        "ref": "15baa7c570f12c78cd9ac6ead897724571e32e87",
+        "ref": "5e8856be0da8e6bc85c4aa28acc614478f7b7137",
         "path": "skills/ppt-master",
-        "url": "https://github.com/hugohe3/ppt-master/tree/15baa7c570f12c78cd9ac6ead897724571e32e87/skills/ppt-master",
-        "skill_sha256": "39594a07cd92e894bfc61242034c78128fd2dfd94081ba3fd9a60d65dad835d5"
+        "url": "https://github.com/hugohe3/ppt-master/tree/5e8856be0da8e6bc85c4aa28acc614478f7b7137/skills/ppt-master",
+        "skill_sha256": "5b58a5a807407401a8262357558c5d988c575bc3514ee367c22561c88467837f"
       },
       "observed_at": "~/.agents/skills/ppt-master"
     },
@@ -154,9 +142,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/kaankiziltug/logo-design-skill.git",
-        "ref": "0ecf52e9a4b3ac92b714f7cc6e3148ab8c774134",
+        "ref": "734090317a2155c5bf1ae8bd4cc85c6848a0128f",
         "path": "skills/logo-design",
-        "url": "https://github.com/kaankiziltug/logo-design-skill/tree/0ecf52e9a4b3ac92b714f7cc6e3148ab8c774134/skills/logo-design",
+        "url": "https://github.com/kaankiziltug/logo-design-skill/tree/734090317a2155c5bf1ae8bd4cc85c6848a0128f/skills/logo-design",
         "skill_sha256": "65ec4bd58732e8cc11e244724e8666de78764b973f6d3b03b233904639cf47c6"
       },
       "observed_at": "~/.agents/skills/logo-design"
@@ -168,9 +156,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
         "path": "skills/nature-figure",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-figure",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure",
         "skill_sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4"
       },
       "observed_at": "~/.agents/skills/nature-figure"
@@ -182,9 +170,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
         "path": "skills/nature-writing",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-writing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-writing",
         "skill_sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
       },
       "observed_at": "~/.agents/skills/nature-writing"
@@ -196,26 +184,26 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
         "path": "skills/nature-shared",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c6ae86c742705fd968b13c79db1a8518a84089d4/skills/nature-shared",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-shared",
         "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
       },
       "observed_at": "~/.agents/skills/nature-shared"
     },
     {
-      "name": "ui-ux-pro-max",
+      "name": "impeccable",
       "ownership": "third-party",
       "enabled": true,
       "source": {
         "type": "github",
-        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
-        "ref": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
-        "path": ".claude/skills/ui-ux-pro-max",
-        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/28b3b8dee8c976df4fa3e94aed4e092ad43fcb03/.claude/skills/ui-ux-pro-max",
-        "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+        "repository": "https://github.com/pbakaus/impeccable.git",
+        "ref": "2f97a85a4a87a80066a693bd3546b092bd300772",
+        "path": ".agents/skills/impeccable",
+        "url": "https://github.com/pbakaus/impeccable/tree/2f97a85a4a87a80066a693bd3546b092bd300772/.agents/skills/impeccable",
+        "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
       },
-      "observed_at": "~/.agents/skills/ui-ux-pro-max"
+      "observed_at": "~/.agents/skills/impeccable"
     }
   ],
   "project_skills": [
