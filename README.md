@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 16 个 Skill，均来自第三方。
+当前用户级清单包含 17 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -89,6 +89,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `lark-base`, `lark-shared` | [Feishu well-known skills](https://open.feishu.cn/.well-known/skills/index.json) |
 | `playwright` | [openai/skills](https://github.com/openai/skills) |
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff)；将当前对话整理为下一位 Agent 可继续使用的交接文档，锁定版本见清单 |
 | `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture)；架构审查与改进候选可视化报告，仅安装此 Skill，保留完整引用文件 |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
