@@ -28,6 +28,20 @@
       "observed_at": "~/.agents/skills/clone-website"
     },
     {
+      "name": "domain-modeling",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "path": "skills/engineering/domain-modeling",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/domain-modeling",
+        "skill_sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+      },
+      "observed_at": "~/.agents/skills/domain-modeling"
+    },
+    {
       "name": "find-skills",
       "ownership": "third-party",
       "enabled": true,
