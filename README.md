@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 19 个 Skill，均来自第三方。
+当前用户级清单包含 28 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -93,6 +93,15 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff)；将当前对话整理为下一位 Agent 可继续使用的交接文档，锁定版本见清单 |
 | `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture)；架构审查与改进候选可视化报告，按需单项安装，保留完整引用文件 |
+| `research` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/research)；基于一手资料开展调研，保存带引用的研究笔记，锁定版本见清单 |
+| `diagnosing-bugs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/diagnosing-bugs)；以可复现反馈循环定位故障与性能回退，包含人工辅助诊断模板，锁定版本见清单 |
+| `writing-for-agents` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents)；编写和精简 Skill、AGENTS.md 等 Agent 文档，明确触发条件与上下文引用，锁定版本见清单 |
+| `code-review` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review)；按指定基线，分别审查代码规范与需求实现，锁定版本见清单 |
+| `retro` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/retro)；复盘 Agent 会话，提出工具、自动检查与规则改进，锁定版本见清单 |
+| `prototype` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/prototype)；用可运行原型比较交互或验证状态模型，包含逻辑与界面分支说明，锁定版本见清单 |
+| `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/tdd)；围绕约定的公共接口逐步编写失败测试与实现，包含测试与 mocking 参考，锁定版本见清单 |
+| `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/grill-with-docs)；组合 grilling 与 domain-modeling，在需求访谈中沉淀术语和架构决策，锁定版本见清单 |
+| `setup-matt-pocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills)；配置项目工单、分类标签与领域文档位置，包含配置模板，锁定版本见清单 |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | `ui-ux-pro-max` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)；UI/UX 设计检索、排版、配色、数据界面及可访问性建议，锁定版本见清单 |
