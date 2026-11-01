@@ -218,6 +218,20 @@
         "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
       },
       "observed_at": "~/.agents/skills/ui-ux-pro-max"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "path": "skills/engineering/improve-codebase-architecture",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture",
+        "skill_sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6"
+      },
+      "observed_at": "~/.agents/skills/improve-codebase-architecture"
     }
   ],
   "project_skills": [
