@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-31",
+  "snapshot_date": "2026-11-01",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -204,6 +204,20 @@
         "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
       },
       "observed_at": "~/.agents/skills/impeccable"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "ref": "3a13158ff1f32156cbe144108de48eda2ecaed9a",
+        "path": ".claude/skills/ui-ux-pro-max",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/3a13158ff1f32156cbe144108de48eda2ecaed9a/.claude/skills/ui-ux-pro-max",
+        "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+      },
+      "observed_at": "~/.agents/skills/ui-ux-pro-max"
     }
   ],
   "project_skills": [
