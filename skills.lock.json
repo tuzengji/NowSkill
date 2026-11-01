@@ -28,6 +28,20 @@
       "observed_at": "~/.agents/skills/clone-website"
     },
     {
+      "name": "codebase-design",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "path": "skills/engineering/codebase-design",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/codebase-design",
+        "skill_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+      },
+      "observed_at": "~/.agents/skills/codebase-design"
+    },
+    {
       "name": "domain-modeling",
       "ownership": "third-party",
       "enabled": true,
@@ -112,6 +126,34 @@
       "observed_at": "~/.agents/skills/humanizer-zh"
     },
     {
+      "name": "impeccable",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/pbakaus/impeccable.git",
+        "ref": "2f97a85a4a87a80066a693bd3546b092bd300772",
+        "path": ".agents/skills/impeccable",
+        "url": "https://github.com/pbakaus/impeccable/tree/2f97a85a4a87a80066a693bd3546b092bd300772/.agents/skills/impeccable",
+        "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
+      },
+      "observed_at": "~/.agents/skills/impeccable"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/mattpocock/skills.git",
+        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "path": "skills/engineering/improve-codebase-architecture",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture",
+        "skill_sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6"
+      },
+      "observed_at": "~/.agents/skills/improve-codebase-architecture"
+    },
+    {
       "name": "lark-base",
       "ownership": "third-party",
       "enabled": true,
@@ -134,34 +176,6 @@
         "content_sha256": "sha256:1204200a3013b3031d8e54da2bc172a9b92f3f5d8baeaf13821614ef5bcaff10"
       },
       "observed_at": "~/.agents/skills/lark-shared"
-    },
-    {
-      "name": "playwright",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/openai/skills.git",
-        "ref": "49f948faa9258a0c61caceaf225e179651397431",
-        "path": "skills/.curated/playwright",
-        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
-        "skill_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
-      },
-      "observed_at": "~/.agents/skills/playwright"
-    },
-    {
-      "name": "ppt-master",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/hugohe3/ppt-master.git",
-        "ref": "5e8856be0da8e6bc85c4aa28acc614478f7b7137",
-        "path": "skills/ppt-master",
-        "url": "https://github.com/hugohe3/ppt-master/tree/5e8856be0da8e6bc85c4aa28acc614478f7b7137/skills/ppt-master",
-        "skill_sha256": "5b58a5a807407401a8262357558c5d988c575bc3514ee367c22561c88467837f"
-      },
-      "observed_at": "~/.agents/skills/ppt-master"
     },
     {
       "name": "logo-design",
@@ -192,20 +206,6 @@
       "observed_at": "~/.agents/skills/nature-figure"
     },
     {
-      "name": "nature-writing",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
-        "path": "skills/nature-writing",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-writing",
-        "skill_sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
-      },
-      "observed_at": "~/.agents/skills/nature-writing"
-    },
-    {
       "name": "nature-shared",
       "ownership": "third-party",
       "enabled": true,
@@ -220,18 +220,46 @@
       "observed_at": "~/.agents/skills/nature-shared"
     },
     {
-      "name": "impeccable",
+      "name": "nature-writing",
       "ownership": "third-party",
       "enabled": true,
       "source": {
         "type": "github",
-        "repository": "https://github.com/pbakaus/impeccable.git",
-        "ref": "2f97a85a4a87a80066a693bd3546b092bd300772",
-        "path": ".agents/skills/impeccable",
-        "url": "https://github.com/pbakaus/impeccable/tree/2f97a85a4a87a80066a693bd3546b092bd300772/.agents/skills/impeccable",
-        "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "path": "skills/nature-writing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-writing",
+        "skill_sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
       },
-      "observed_at": "~/.agents/skills/impeccable"
+      "observed_at": "~/.agents/skills/nature-writing"
+    },
+    {
+      "name": "playwright",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/openai/skills.git",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/playwright",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
+        "skill_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
+      },
+      "observed_at": "~/.agents/skills/playwright"
+    },
+    {
+      "name": "ppt-master",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/hugohe3/ppt-master.git",
+        "ref": "5e8856be0da8e6bc85c4aa28acc614478f7b7137",
+        "path": "skills/ppt-master",
+        "url": "https://github.com/hugohe3/ppt-master/tree/5e8856be0da8e6bc85c4aa28acc614478f7b7137/skills/ppt-master",
+        "skill_sha256": "5b58a5a807407401a8262357558c5d988c575bc3514ee367c22561c88467837f"
+      },
+      "observed_at": "~/.agents/skills/ppt-master"
     },
     {
       "name": "ui-ux-pro-max",
@@ -246,20 +274,6 @@
         "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
       },
       "observed_at": "~/.agents/skills/ui-ux-pro-max"
-    },
-    {
-      "name": "improve-codebase-architecture",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
-        "path": "skills/engineering/improve-codebase-architecture",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture",
-        "skill_sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6"
-      },
-      "observed_at": "~/.agents/skills/improve-codebase-architecture"
     }
   ],
   "project_skills": [
