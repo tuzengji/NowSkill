@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -82,6 +82,20 @@
         "skill_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2"
       },
       "observed_at": "~/.agents/skills/grilling"
+    },
+    {
+      "name": "hallmark",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Nutlope/hallmark.git",
+        "ref": "4f6a46c6dc325d40ab268c93e25c7b96676ebccd",
+        "path": "skills/hallmark",
+        "url": "https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark",
+        "skill_sha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3"
+      },
+      "observed_at": "~/.agents/skills/hallmark"
     },
     {
       "name": "handoff",
