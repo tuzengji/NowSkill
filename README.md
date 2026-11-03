@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 29 个 Skill，均来自第三方。
+当前用户级清单包含 25 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -60,38 +60,16 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 ## 收录内容
 
-### 自有项目级 Skill
-
-| Skill | 项目内入口 | 仓库源码 |
-| --- | --- | --- |
-| `neat-design` | `~/LovingHeart/以手予爱/Neat-Design-Skill/neat-design` | [skills/owned/neat-design](skills/owned/neat-design) |
-
-[Neat Design](https://github.com/tuzengji/neat-design-skill) 保存完整源码和内容哈希，沿用项目目录入口，不自动安装到全局。2026 年 10 月 16 日补充了选择器展开态与移动端验收要求，并严格禁止卡片单侧强调线、标题旁竖条及其伪元素／渐变变体；弹窗、子任务与空状态同样适用。 同日将“页面文案只保留对用户有用的信息”列为高优先级要求和必检项：逐页核查相关状态，无用的技术与运维说明移入项目文档，同时保留隐私、必要限制及错误恢复提示。
-
-2026 年 10 月 17 日将信息类网站的访问性能列为高优先级要求：首屏优先，列表分批、详情与重型功能按需加载，公开内容不被无关初始化阻塞；分页后的搜索、导出和记录恢复保持完整，并以实际访问测试验收。具体批次和速度目标按项目确定。
-
-2026 年 10 月 17 日补充通用的交互与布局稳定性要求：同页切换不引起无关位移，滚动与焦点符合操作目的，异步更新不打断当前状态；桌面和手机需覆盖长短内容、空状态及加载前后的连续切换验收。不绑定具体网站、控件名称、像素数或 CSS 实现。
-
-同日补充用户确认的九项通用规则：按钮文案与留白比例、精简重复入口、详情查看保留上下文、手机预填不自动唤起键盘、面向用户任务的默认排序、保存清单与草稿、品牌标识覆盖相关入口、功能按钮兑现承诺，以及具体而有变化的情感文案。审美标准与验收清单同步更新，保持项目级入口和既有任务范围。
-
-同日确认通用默认字体：未指定时使用 `HarmonyOS Sans SC`，用户明确指定或已确认的品牌字体优先。覆盖正文、标题、控件、菜单和弹窗，实际加载、回退和加载稳定性纳入检查；局部维护不顺带替换范围外的既有字体。
-
-2026 年 10 月 17 日以 **Neat Design** 发布到公开仓库 `tuzengji/neat-design-skill`，提供中英文 README；本机目录改为 `Neat-Design-Skill` 并作为该仓库根目录，Skill 标识统一为 `neat-design`。本清单保留项目级镜像与源仓库提交，原始聊天引用资料仅留在本地。
-
-2026 年 10 月 20 日细化通用手机布局要求：按内容优先级重新组织信息和操作，避免直接挤压桌面多列、标题碎行、按钮拥挤及悬浮导航遮挡。验收覆盖不同宽度、短屏、长内容、展开状态和滚动操作；无横向溢出不是唯一标准。布局形式与导航方式按页面用途确定，不固定为某个网站的卡片或像素参数。
-
 ### 第三方 Skill
 
 | Skill | 上游 |
 | --- | --- |
-| `clone-website` | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)；网页结构与素材提取、交互复刻及对照检查，锁定版本见清单 |
 | `codebase-design` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/codebase-design)；深模块设计、职责与调用规则审查，包含设计及测试参考，锁定版本见清单 |
 | `domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/domain-modeling)；澄清领域概念、维护术语表与架构决策记录，包含格式模板，锁定版本见清单 |
 | `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | `lark-base`, `lark-shared` | [Feishu well-known skills](https://open.feishu.cn/.well-known/skills/index.json) |
 | `playwright` | [openai/skills](https://github.com/openai/skills) |
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
-| `hallmark` | 设计或改版网页，在浏览器中检查布局和可访问性。[Nutlope/hallmark](https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark) |
 | `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff)；将当前对话整理为下一位 Agent 可继续使用的交接文档，锁定版本见清单 |
 | `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture)；架构审查与改进候选可视化报告，按需单项安装，保留完整引用文件 |
 | `research` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/research)；基于一手资料开展调研，保存带引用的研究笔记，锁定版本见清单 |
@@ -99,13 +77,11 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `writing-for-agents` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents)；编写和精简 Skill、AGENTS.md 等 Agent 文档，明确触发条件与上下文引用，锁定版本见清单 |
 | `code-review` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review)；按指定基线，分别审查代码规范与需求实现，锁定版本见清单 |
 | `retro` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/retro)；复盘 Agent 会话，提出工具、自动检查与规则改进，锁定版本见清单 |
-| `prototype` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/prototype)；用可运行原型比较交互或验证状态模型，包含逻辑与界面分支说明，锁定版本见清单 |
 | `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/tdd)；围绕约定的公共接口逐步编写失败测试与实现，包含测试与 mocking 参考，锁定版本见清单 |
 | `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/grill-with-docs)；组合 grilling 与 domain-modeling，在需求访谈中沉淀术语和架构决策，锁定版本见清单 |
 | `setup-matt-pocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills)；配置项目工单、分类标签与领域文档位置，包含配置模板，锁定版本见清单 |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
-| `ui-ux-pro-max` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)；UI/UX 设计检索、排版、配色、数据界面及可访问性建议，锁定版本见清单 |
 | `impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)；界面设计、审查、美化及响应式与可访问性检查，锁定版本见清单 |
 | `ppt-master` | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)；可编辑 PPTX 生成、模板填充与演示稿美化，锁定版本见清单 |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -13,20 +13,6 @@
     "sync_backs_up_replaced_and_removed_skills": true
   },
   "skills": [
-    {
-      "name": "clone-website",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/JCodesMore/ai-website-cloner-template.git",
-        "ref": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
-        "path": ".agents/skills/clone-website",
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template/tree/ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb/.agents/skills/clone-website",
-        "skill_sha256": "f5e326e2a51b5af7646ddd42f680797cc5ba7aaa6bdbb4e8b371ea3805287e4c"
-      },
-      "observed_at": "~/.agents/skills/clone-website"
-    },
     {
       "name": "codebase-design",
       "ownership": "third-party",
@@ -82,20 +68,6 @@
         "skill_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2"
       },
       "observed_at": "~/.agents/skills/grilling"
-    },
-    {
-      "name": "hallmark",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/Nutlope/hallmark.git",
-        "ref": "4f6a46c6dc325d40ab268c93e25c7b96676ebccd",
-        "path": "skills/hallmark",
-        "url": "https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark",
-        "skill_sha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3"
-      },
-      "observed_at": "~/.agents/skills/hallmark"
     },
     {
       "name": "handoff",
@@ -276,20 +248,6 @@
       "observed_at": "~/.agents/skills/ppt-master"
     },
     {
-      "name": "ui-ux-pro-max",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
-        "ref": "3a13158ff1f32156cbe144108de48eda2ecaed9a",
-        "path": ".claude/skills/ui-ux-pro-max",
-        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/3a13158ff1f32156cbe144108de48eda2ecaed9a/.claude/skills/ui-ux-pro-max",
-        "skill_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
-      },
-      "observed_at": "~/.agents/skills/ui-ux-pro-max"
-    },
-    {
       "name": "research",
       "ownership": "third-party",
       "enabled": true,
@@ -358,20 +316,6 @@
         "skill_sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696"
       },
       "observed_at": "~/.agents/skills/retro"
-    },
-    {
-      "name": "prototype",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
-        "path": "skills/engineering/prototype",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/prototype",
-        "skill_sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3"
-      },
-      "observed_at": "~/.agents/skills/prototype"
     },
     {
       "name": "tdd",
@@ -480,21 +424,6 @@
       "observed_at": "~/LovingHeart/ShouYuLove/以手寻语SignTrace/第十一届残疾人数据科学研讨会/.agents/skills/academic-pipeline",
       "package_dependencies": "Sibling skills and shared, scripts, docs from the same upstream revision",
       "installation": "Project-local source snapshot with four .agents/skills symlinks; preserve package-relative references"
-    },
-    {
-      "name": "neat-design",
-      "ownership": "owned",
-      "scope": "project",
-      "source": {
-        "type": "bundled",
-        "path": "skills/owned/neat-design",
-        "content_sha256": "sha256:37642d6e3af5bb05c89d6bc3ec72463e55215b9872a3b389c0135dfe6681bb6b",
-        "repository": "https://github.com/tuzengji/neat-design-skill.git",
-        "ref": "1e9e7f329c2eab9b33f6506d7c3351ab9e7fa2cd",
-        "url": "https://github.com/tuzengji/neat-design-skill/tree/1e9e7f329c2eab9b33f6506d7c3351ab9e7fa2cd/neat-design"
-      },
-      "observed_at": "~/LovingHeart/以手予爱/Neat-Design-Skill/neat-design",
-      "installation": "Project-local user-owned source; no global installation. Keep the source directory and this bundled copy synchronized."
     }
   ]
 }
