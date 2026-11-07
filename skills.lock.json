@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-07",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -358,6 +358,20 @@
         "skill_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed"
       },
       "observed_at": "~/.agents/skills/setup-matt-pocock-skills"
+    },
+    {
+      "name": "anti-defensive-writing",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Kiterlin/anti-defensive-writing.git",
+        "ref": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+        "path": "skill/anti-defensive-writing",
+        "url": "https://github.com/Kiterlin/anti-defensive-writing/tree/f516147d017a3fe43ae99192cb89d8261b0c8679/skill/anti-defensive-writing",
+        "skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
+      },
+      "observed_at": "~/.agents/skills/anti-defensive-writing"
     }
   ],
   "project_skills": [
