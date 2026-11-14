@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 26 个 Skill，均来自第三方。
+当前用户级清单包含 27 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -84,6 +84,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `anti-defensive-writing` | [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing)；精简中英文写作中的防御性表达，保留必要限定，锁定版本见清单 |
 | `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | `impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)；界面设计、审查、美化及响应式与可访问性检查，锁定版本见清单 |
+| `awesome-design-md` | [wearescientist/awesome-design-md](https://github.com/wearescientist/awesome-design-md)（封装自 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)）；主流产品 DESIGN.md 设计规范索引与按需套用，锁定版本见清单 |
 | `ppt-master` | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)；可编辑 PPTX 生成、模板填充与演示稿美化，锁定版本见清单 |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |
 | `nature-figure`, `nature-writing`, `nature-shared` | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)；科学绘图、论文写作及共享参考，锁定版本见清单 |

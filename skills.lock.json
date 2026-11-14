@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-07",
+  "snapshot_date": "2026-11-14",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -372,6 +372,20 @@
         "skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
       },
       "observed_at": "~/.agents/skills/anti-defensive-writing"
+    },
+    {
+      "name": "awesome-design-md",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/wearescientist/awesome-design-md.git",
+        "ref": "6d732af371a8960feb6170e80425b2ce6a534b2c",
+        "path": ".",
+        "url": "https://github.com/wearescientist/awesome-design-md/tree/6d732af371a8960feb6170e80425b2ce6a534b2c",
+        "skill_sha256": "0cc5baf50d458adcb10d869e58a500894b631a12c9e617d53a33336b8d715cd0"
+      },
+      "observed_at": "~/.agents/skills/awesome-design-md"
     }
   ],
   "project_skills": [
