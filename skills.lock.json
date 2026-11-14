@@ -182,6 +182,20 @@
       "observed_at": "~/.agents/skills/codebase-design"
     },
     {
+      "name": "design-taste-frontend",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Leonxlnx/taste-skill.git",
+        "ref": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+        "path": "skills/taste-skill",
+        "url": "https://github.com/Leonxlnx/taste-skill/tree/f6b76575f949707b4e3c37cd86cb44b0b98643e8/skills/taste-skill",
+        "skill_sha256": "0c7a5852a5217be79cab422c6d58329b776f0c25bd6da8a7a01707ce75be6206"
+      },
+      "observed_at": "~/.agents/skills/design-taste-frontend"
+    },
+    {
       "name": "diagnosing-bugs",
       "ownership": "third-party",
       "enabled": true,
