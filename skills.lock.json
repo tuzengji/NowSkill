@@ -19,13 +19,41 @@
       "enabled": true,
       "source": {
         "type": "github",
-        "repository": "https://github.com/Kiterlin/anti-defensive-writing.git",
-        "ref": "f516147d017a3fe43ae99192cb89d8261b0c8679",
-        "path": "skill/anti-defensive-writing",
-        "url": "https://github.com/Kiterlin/anti-defensive-writing/tree/f516147d017a3fe43ae99192cb89d8261b0c8679/skill/anti-defensive-writing",
-        "skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
+        "repository": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill.git",
+        "ref": "82d31402caa0db1790026824399044538483171b",
+        "path": "skills/anti-defensive-writing",
+        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/82d31402caa0db1790026824399044538483171b/skills/anti-defensive-writing",
+        "skill_sha256": "6f072e66f6adf813bc1b4291754f2bc07ed4e65a398359844e97bfa215a1c28e"
       },
       "observed_at": "~/.agents/skills/anti-defensive-writing"
+    },
+    {
+      "name": "anti-defensive-writing-en",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill.git",
+        "ref": "82d31402caa0db1790026824399044538483171b",
+        "path": "skills/anti-defensive-writing-en",
+        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/82d31402caa0db1790026824399044538483171b/skills/anti-defensive-writing-en",
+        "skill_sha256": "49705a92677d06b1be9f78be5be4f966b1d30c4ed72a3b97c86a973d06683b9b"
+      },
+      "observed_at": "~/.agents/skills/anti-defensive-writing-en"
+    },
+    {
+      "name": "caveman",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/JuliusBrussee/caveman.git",
+        "ref": "b4ee71d557d96e3cbc14f88fa6e953a1362865f5",
+        "path": "skills/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman/tree/b4ee71d557d96e3cbc14f88fa6e953a1362865f5/skills/caveman",
+        "skill_sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b"
+      },
+      "observed_at": "~/.agents/skills/caveman"
     },
     {
       "name": "code-review",
@@ -248,6 +276,48 @@
       "observed_at": "~/.agents/skills/nature-figure"
     },
     {
+      "name": "nature-polishing",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "path": "skills/nature-polishing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-polishing",
+        "skill_sha256": "9391b2a2487306cf2ed560377d4bc10c339fd2c220a79db278cb7f9d31e79023"
+      },
+      "observed_at": "~/.agents/skills/nature-polishing"
+    },
+    {
+      "name": "nature-response",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "path": "skills/nature-response",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-response",
+        "skill_sha256": "a8283db56e73879413311cbcde1db4c72dd4390bbe21ab2f62f1f968610b5de1"
+      },
+      "observed_at": "~/.agents/skills/nature-response"
+    },
+    {
+      "name": "nature-reviewer",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/Yuan1z0825/nature-skills.git",
+        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "path": "skills/nature-reviewer",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-reviewer",
+        "skill_sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610"
+      },
+      "observed_at": "~/.agents/skills/nature-reviewer"
+    },
+    {
       "name": "nature-shared",
       "ownership": "third-party",
       "enabled": true,
@@ -344,6 +414,20 @@
         "skill_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed"
       },
       "observed_at": "~/.agents/skills/setup-matt-pocock-skills"
+    },
+    {
+      "name": "stop-slop",
+      "ownership": "third-party",
+      "enabled": true,
+      "source": {
+        "type": "github",
+        "repository": "https://github.com/hardikpandya/stop-slop.git",
+        "ref": "8da1f030185bdfe8471220585162991eaeb970e9",
+        "path": ".",
+        "url": "https://github.com/hardikpandya/stop-slop/tree/8da1f030185bdfe8471220585162991eaeb970e9",
+        "skill_sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310"
+      },
+      "observed_at": "~/.agents/skills/stop-slop"
     },
     {
       "name": "tdd",
