@@ -44,7 +44,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
 
-当前用户级清单包含 47 个 Skill，均来自第三方。
+当前用户级清单包含 26 个 Skill，均来自第三方。
 
 同步只迁移 Skill 文件，不迁移 API Token、MCP 登录状态或其他凭据。新 Skill 通常会自动出现，必要时重启 Agent。
 
@@ -82,15 +82,11 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 | `setup-matt-pocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills)；配置项目工单、分类标签与领域文档位置，包含配置模板，锁定版本见清单 |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `anti-defensive-writing` | [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing)；精简中英文写作中的防御性表达，保留必要限定，锁定版本见清单 |
-| `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | `impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)；界面设计、审查、美化及响应式与可访问性检查，锁定版本见清单 |
-| `awesome-design-md` | [wearescientist/awesome-design-md](https://github.com/wearescientist/awesome-design-md)（封装自 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)）；主流产品 DESIGN.md 设计规范索引与按需套用，锁定版本见清单 |
 | `ppt-master` | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)；可编辑 PPTX 生成、模板填充与演示稿美化，锁定版本见清单 |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |
 | `nature-figure`, `nature-writing`, `nature-shared` | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)；科学绘图、论文写作及共享参考，锁定版本见清单 |
 | `design-taste-frontend` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/tree/f6b76575f949707b4e3c37cd86cb44b0b98643e8/skills/taste-skill)；反模板化前端设计与版式精修规则、文案与一致性门禁检查，锁定版本见清单 |
-| `hallmark` | [Nutlope/hallmark](https://github.com/Nutlope/hallmark/tree/04977e15f3dfd6ee4b74c887dac3eb52665d6c92/skills/hallmark)；网页设计架构审查、设计 Token 约束与 `sloplint` 门禁检查，锁定版本见清单 |
-| `emil-design-eng` 等 18 个前端动效与界面工程 Skill | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills)（含 `emil-design-eng`、`mobile-native`、`animate`、`choreograph`、`gestures`、`review-animations`、`improve-animations`、`animation-performance`、`apple-design` 等 18 项）；微交互、缓动物理曲线、移动端原生手感与界面精修，锁定版本见清单 |
 
 ### 项目级 Skill
 

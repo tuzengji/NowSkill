@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-14",
+  "snapshot_date": "2026-11-15",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -14,62 +14,6 @@
   },
   "skills": [
     {
-      "name": "animate",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/animate",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/animate",
-        "skill_sha256": "4ce49ea635ec175b45552bae070ea07b2d6aa5367047994250c1c095b71c8585"
-      },
-      "observed_at": "~/.agents/skills/animate"
-    },
-    {
-      "name": "animate-expo",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/animate-expo",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/animate-expo",
-        "skill_sha256": "67e5d2ebe23b3edf52ce9d399532f2ead2bd7eff127919dd1c3bbe489b04dd4d"
-      },
-      "observed_at": "~/.agents/skills/animate-expo"
-    },
-    {
-      "name": "animation-performance",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/animation-performance",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/animation-performance",
-        "skill_sha256": "6481e7a611b54c0d1d229ac3ac516c05648e63aa79de88c0a1bdc5ae2666ab80"
-      },
-      "observed_at": "~/.agents/skills/animation-performance"
-    },
-    {
-      "name": "animation-vocabulary",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/animation-vocabulary",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/animation-vocabulary",
-        "skill_sha256": "42df33f1583483cc441fcd76693b3399148602705d2e9b8a26665d6b1951cd0b"
-      },
-      "observed_at": "~/.agents/skills/animation-vocabulary"
-    },
-    {
       "name": "anti-defensive-writing",
       "ownership": "third-party",
       "enabled": true,
@@ -82,76 +26,6 @@
         "skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
       },
       "observed_at": "~/.agents/skills/anti-defensive-writing"
-    },
-    {
-      "name": "apple-design",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/apple-design",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/apple-design",
-        "skill_sha256": "7fbacf928637e136da6d475358d0639667a3637ba772f03f8e815bb4c0b86946"
-      },
-      "observed_at": "~/.agents/skills/apple-design"
-    },
-    {
-      "name": "ask-sonner",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/ask-sonner",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/ask-sonner",
-        "skill_sha256": "4350ebfef0437875de80cc989059900b21ad621ea09f4709cc2917e7dee82d46"
-      },
-      "observed_at": "~/.agents/skills/ask-sonner"
-    },
-    {
-      "name": "awesome-design-md",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/wearescientist/awesome-design-md.git",
-        "ref": "6d732af371a8960feb6170e80425b2ce6a534b2c",
-        "path": ".",
-        "url": "https://github.com/wearescientist/awesome-design-md/tree/6d732af371a8960feb6170e80425b2ce6a534b2c",
-        "skill_sha256": "0cc5baf50d458adcb10d869e58a500894b631a12c9e617d53a33336b8d715cd0"
-      },
-      "observed_at": "~/.agents/skills/awesome-design-md"
-    },
-    {
-      "name": "break-ui",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/break-ui",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/break-ui",
-        "skill_sha256": "fb126d176f3b6bf7dfe71f2ae6620ab3dd81e6282c672a1801720055addfce18"
-      },
-      "observed_at": "~/.agents/skills/break-ui"
-    },
-    {
-      "name": "choreograph",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/choreograph",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/choreograph",
-        "skill_sha256": "0a6802bb2fd5a3993842d48332b8ab56ae5bab369ffa8700f85f6fcff56b8478"
-      },
-      "observed_at": "~/.agents/skills/choreograph"
     },
     {
       "name": "code-review",
@@ -224,34 +98,6 @@
       "observed_at": "~/.agents/skills/domain-modeling"
     },
     {
-      "name": "emil-design-eng",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/emil-design-eng",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/emil-design-eng",
-        "skill_sha256": "cdbfe467e6c9a4940c3a19e795cecf1ba659378d7412e06c245c6ae49da47da6"
-      },
-      "observed_at": "~/.agents/skills/emil-design-eng"
-    },
-    {
-      "name": "find-animation-opportunities",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/find-animation-opportunities",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/find-animation-opportunities",
-        "skill_sha256": "331479e0d867f90d637ef3ef1bdbbd38498d144ab493442afdfbc138abc751b4"
-      },
-      "observed_at": "~/.agents/skills/find-animation-opportunities"
-    },
-    {
       "name": "find-skills",
       "ownership": "third-party",
       "enabled": true,
@@ -264,20 +110,6 @@
         "skill_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
       },
       "observed_at": "~/.agents/skills/find-skills"
-    },
-    {
-      "name": "gestures",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/gestures",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/gestures",
-        "skill_sha256": "1928c86cce924a2a178ddd156ba5ed0f184665a1f95b549724ffb5ae703e994f"
-      },
-      "observed_at": "~/.agents/skills/gestures"
     },
     {
       "name": "grill-with-docs",
@@ -308,20 +140,6 @@
       "observed_at": "~/.agents/skills/grilling"
     },
     {
-      "name": "hallmark",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/Nutlope/hallmark.git",
-        "ref": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
-        "path": "skills/hallmark",
-        "url": "https://github.com/Nutlope/hallmark/tree/04977e15f3dfd6ee4b74c887dac3eb52665d6c92/skills/hallmark",
-        "skill_sha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3"
-      },
-      "observed_at": "~/.agents/skills/hallmark"
-    },
-    {
       "name": "handoff",
       "ownership": "third-party",
       "enabled": true,
@@ -350,20 +168,6 @@
       "observed_at": "~/.agents/skills/humanizer"
     },
     {
-      "name": "humanizer-zh",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/op7418/Humanizer-zh.git",
-        "ref": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
-        "path": ".",
-        "url": "https://github.com/op7418/Humanizer-zh/tree/f4518a8eab97b8bfebc66a89d34320a89bef6930",
-        "skill_sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df"
-      },
-      "observed_at": "~/.agents/skills/humanizer-zh"
-    },
-    {
       "name": "impeccable",
       "ownership": "third-party",
       "enabled": true,
@@ -376,20 +180,6 @@
         "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
       },
       "observed_at": "~/.agents/skills/impeccable"
-    },
-    {
-      "name": "improve-animations",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/improve-animations",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/improve-animations",
-        "skill_sha256": "632be90e04261192112571b05abd5708fbb846808a4a7780717ee206daa6c6f6"
-      },
-      "observed_at": "~/.agents/skills/improve-animations"
     },
     {
       "name": "improve-codebase-architecture",
@@ -430,20 +220,6 @@
       "observed_at": "~/.agents/skills/lark-shared"
     },
     {
-      "name": "learn-taste",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/learn-taste",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/learn-taste",
-        "skill_sha256": "d624b8cd475eec24c5dc3f49b0380b56c8dab8399df11b92d7c9685aa8d4d33e"
-      },
-      "observed_at": "~/.agents/skills/learn-taste"
-    },
-    {
       "name": "logo-design",
       "ownership": "third-party",
       "enabled": true,
@@ -456,20 +232,6 @@
         "skill_sha256": "65ec4bd58732e8cc11e244724e8666de78764b973f6d3b03b233904639cf47c6"
       },
       "observed_at": "~/.agents/skills/logo-design"
-    },
-    {
-      "name": "mobile-native",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/mobile-native",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/mobile-native",
-        "skill_sha256": "705e267bc47ea61e4c6f94d121efeebdb994055f482673b8a72f4a0dd62f1968"
-      },
-      "observed_at": "~/.agents/skills/mobile-native"
     },
     {
       "name": "nature-figure",
@@ -514,20 +276,6 @@
       "observed_at": "~/.agents/skills/nature-writing"
     },
     {
-      "name": "pick-ui-library",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/pick-ui-library",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/pick-ui-library",
-        "skill_sha256": "db10dc6b2a0c340d873f69e35140ceb3c929e15664b33fcacd1ecb25c5574df3"
-      },
-      "observed_at": "~/.agents/skills/pick-ui-library"
-    },
-    {
       "name": "playwright",
       "ownership": "third-party",
       "enabled": true,
@@ -556,34 +304,6 @@
       "observed_at": "~/.agents/skills/ppt-master"
     },
     {
-      "name": "prototype",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/prototype",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/prototype",
-        "skill_sha256": "30def86c5a5a0794a954b2a046d24c847c7129f316d79892abff73d54d79adc0"
-      },
-      "observed_at": "~/.agents/skills/prototype"
-    },
-    {
-      "name": "remove-animations",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/remove-animations",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/remove-animations",
-        "skill_sha256": "228d98a3d05637f2ff8fc2d1c2bd88c14783c8c901105cac39a7ae24a4d3e408"
-      },
-      "observed_at": "~/.agents/skills/remove-animations"
-    },
-    {
       "name": "research",
       "ownership": "third-party",
       "enabled": true,
@@ -610,20 +330,6 @@
         "skill_sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696"
       },
       "observed_at": "~/.agents/skills/retro"
-    },
-    {
-      "name": "review-animations",
-      "ownership": "third-party",
-      "enabled": true,
-      "source": {
-        "type": "github",
-        "repository": "https://github.com/emilkowalski/skills.git",
-        "ref": "0f2e23b32bb1265e84cff8d3e75785fec953fb1b",
-        "path": "skills/review-animations",
-        "url": "https://github.com/emilkowalski/skills/tree/0f2e23b32bb1265e84cff8d3e75785fec953fb1b/skills/review-animations",
-        "skill_sha256": "9ceb5072ce5d5e51b07efa60817c66d06fc6492b7900b44dff5ff0f8f7bcf188"
-      },
-      "observed_at": "~/.agents/skills/review-animations"
     },
     {
       "name": "setup-matt-pocock-skills",
