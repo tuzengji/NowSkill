@@ -83,7 +83,7 @@ def load_manifest(path: Path = MANIFEST_PATH) -> dict[str, Any]:
     return manifest
 
 
-def run(command: list[str], cwd: Path | None = None) -> str:
+def run(command: list[str], cwd: Path | None = None, *, timeout: int = 180) -> str:
     env = os.environ.copy()
     env["GIT_TERMINAL_PROMPT"] = "0"
     result = subprocess.run(
@@ -94,7 +94,7 @@ def run(command: list[str], cwd: Path | None = None) -> str:
         text=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        timeout=180,
+        timeout=timeout,
     )
     return result.stdout.strip()
 
@@ -147,7 +147,8 @@ class SourceCache:
         checkout.mkdir()
         run(["git", "init", "--quiet"], cwd=checkout)
         run(["git", "remote", "add", "origin", repository], cwd=checkout)
-        run(["git", "fetch", "--quiet", "--depth", "1", "origin", ref], cwd=checkout)
+        # Asset-heavy skills can take longer to download than Git metadata.
+        run(["git", "fetch", "--quiet", "--depth", "1", "origin", ref], cwd=checkout, timeout=900)
         run(["git", "checkout", "--quiet", "--detach", "FETCH_HEAD"], cwd=checkout)
 
         actual = run(["git", "rev-parse", "HEAD"], cwd=checkout)

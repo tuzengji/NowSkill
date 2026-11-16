@@ -42,7 +42,7 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 `.system` 和 Codex 内置运行时保留。脚本不处理项目级、管理员级目录或插件缓存；Agent 应另行核查第三方插件提供的 Skill，通过其受支持的卸载机制处理，不能直接删除缓存或连带移除无关连接器。遇到无法安全处理的项必须报告，不能宣称已完全同步。目录外的链接目标不会被删除；链接集合、断链或受保护目录冲突会停止同步并报告。
 
-这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。
+这里的“官方保留”指内置/system/runtime Skill。手动安装的 OpenAI curated Skill 仍属于清单管理范围。用户级目录遵循[官方 Skill 目录说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
 
 当前用户级清单包含 32 个 Skill，均来自第三方。
 
@@ -64,26 +64,26 @@ python3 scripts/sync.py --dest /path/to/agent/skills --root /path/to/legacy/skil
 
 | Skill | 上游 |
 | --- | --- |
-| `codebase-design` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/codebase-design)；深模块设计、职责与调用规则审查，包含设计及测试参考，锁定版本见清单 |
-| `domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/domain-modeling)；澄清领域概念、维护术语表与架构决策记录，包含格式模板，锁定版本见清单 |
+| `codebase-design` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/codebase-design)；深模块设计、职责与调用规则审查，包含设计及测试参考，锁定版本见清单 |
+| `domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/domain-modeling)；澄清领域概念、维护术语表与架构决策记录，包含格式模板，锁定版本见清单 |
 | `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | `lark-base`, `lark-shared` | [Feishu well-known skills](https://open.feishu.cn/.well-known/skills/index.json) |
 | `playwright` | [openai/skills](https://github.com/openai/skills) |
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) |
-| `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff)；将当前对话整理为下一位 Agent 可继续使用的交接文档，锁定版本见清单 |
-| `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture)；架构审查与改进候选可视化报告，按需单项安装，保留完整引用文件 |
-| `research` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/research)；基于一手资料开展调研，保存带引用的研究笔记，锁定版本见清单 |
-| `diagnosing-bugs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/diagnosing-bugs)；以可复现反馈循环定位故障与性能回退，包含人工辅助诊断模板，锁定版本见清单 |
-| `writing-for-agents` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents)；编写和精简 Skill、AGENTS.md 等 Agent 文档，明确触发条件与上下文引用，锁定版本见清单 |
-| `code-review` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review)；按指定基线，分别审查代码规范与需求实现，锁定版本见清单 |
-| `retro` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/retro)；复盘 Agent 会话，提出工具、自动检查与规则改进，锁定版本见清单 |
-| `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/tdd)；围绕约定的公共接口逐步编写失败测试与实现，包含测试与 mocking 参考，锁定版本见清单 |
-| `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/grill-with-docs)；组合 grilling 与 domain-modeling，在需求访谈中沉淀术语和架构决策，锁定版本见清单 |
-| `setup-matt-pocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills)；配置项目工单、分类标签与领域文档位置，包含配置模板，锁定版本见清单 |
+| `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/handoff)；将当前对话整理为下一位 Agent 可继续使用的交接文档，锁定版本见清单 |
+| `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/improve-codebase-architecture)；架构审查与改进候选可视化报告，按需单项安装，保留完整引用文件 |
+| `research` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/research)；基于一手资料开展调研，保存带引用的研究笔记，锁定版本见清单 |
+| `diagnosing-bugs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/diagnosing-bugs)；以可复现反馈循环定位故障与性能回退，包含人工辅助诊断模板，锁定版本见清单 |
+| `writing-for-agents` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/writing-for-agents)；编写和精简 Skill、AGENTS.md 等 Agent 文档，明确触发条件与上下文引用，锁定版本见清单 |
+| `code-review` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/code-review)；按指定基线，分别审查代码规范与需求实现，锁定版本见清单 |
+| `retro` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/retro)；复盘 Agent 会话，提出工具、自动检查与规则改进，锁定版本见清单 |
+| `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/tdd)；围绕约定的公共接口逐步编写失败测试与实现，包含测试与 mocking 参考，锁定版本见清单 |
+| `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/grill-with-docs)；组合 grilling 与 domain-modeling，在需求访谈中沉淀术语和架构决策，锁定版本见清单 |
+| `setup-matt-pocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/setup-matt-pocock-skills)；配置项目工单、分类标签与领域文档位置，包含配置模板，锁定版本见清单 |
 | `humanizer` | [blader/humanizer](https://github.com/blader/humanizer) |
 | `anti-defensive-writing`, `anti-defensive-writing-en` | [Adkid-Zephyr/anti-defensive-writing-Skill](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill)；中文版与英文版，按“学术发布会”思路组织论文叙事，阻止防御性写作，锁定版本见清单 |
 | `stop-slop` | [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)；删除英文文本中常见的 AI 写作套路，锁定版本见清单 |
-| `caveman` | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/tree/b4ee71d557d96e3cbc14f88fa6e953a1362865f5/skills/caveman)；回答先给结论，省去寒暄和铺垫，代码、命令和数字原样保留，锁定版本见清单 |
+| `caveman` | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/tree/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman)；回答先给结论，省去寒暄和铺垫，代码、命令和数字原样保留，锁定版本见清单 |
 | `impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)；界面设计、审查、美化及响应式与可访问性检查，锁定版本见清单 |
 | `ppt-master` | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)；可编辑 PPTX 生成、模板填充与演示稿美化，锁定版本见清单 |
 | `logo-design` | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)；Logo 概念、SVG 绘制、小尺寸检查和交付工具 |

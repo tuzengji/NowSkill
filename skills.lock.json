@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-15",
+  "snapshot_date": "2026-11-16",
   "default_destination": "~/.agents/skills",
   "policy": {
     "owned_skills_are_vendored": true,
@@ -20,9 +20,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill.git",
-        "ref": "82d31402caa0db1790026824399044538483171b",
+        "ref": "e65bd9d8bf8ed8b9af809e5aff8237d76370876d",
         "path": "skills/anti-defensive-writing",
-        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/82d31402caa0db1790026824399044538483171b/skills/anti-defensive-writing",
+        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/e65bd9d8bf8ed8b9af809e5aff8237d76370876d/skills/anti-defensive-writing",
         "skill_sha256": "6f072e66f6adf813bc1b4291754f2bc07ed4e65a398359844e97bfa215a1c28e"
       },
       "observed_at": "~/.agents/skills/anti-defensive-writing"
@@ -34,9 +34,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill.git",
-        "ref": "82d31402caa0db1790026824399044538483171b",
+        "ref": "e65bd9d8bf8ed8b9af809e5aff8237d76370876d",
         "path": "skills/anti-defensive-writing-en",
-        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/82d31402caa0db1790026824399044538483171b/skills/anti-defensive-writing-en",
+        "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/tree/e65bd9d8bf8ed8b9af809e5aff8237d76370876d/skills/anti-defensive-writing-en",
         "skill_sha256": "49705a92677d06b1be9f78be5be4f966b1d30c4ed72a3b97c86a973d06683b9b"
       },
       "observed_at": "~/.agents/skills/anti-defensive-writing-en"
@@ -48,9 +48,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/JuliusBrussee/caveman.git",
-        "ref": "b4ee71d557d96e3cbc14f88fa6e953a1362865f5",
+        "ref": "9b243662ff98d392bc0a95b865a554583d71be75",
         "path": "skills/caveman",
-        "url": "https://github.com/JuliusBrussee/caveman/tree/b4ee71d557d96e3cbc14f88fa6e953a1362865f5/skills/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman/tree/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman",
         "skill_sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b"
       },
       "observed_at": "~/.agents/skills/caveman"
@@ -62,9 +62,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/code-review",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/code-review",
         "skill_sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd"
       },
       "observed_at": "~/.agents/skills/code-review"
@@ -76,9 +76,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/codebase-design",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/codebase-design",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/codebase-design",
         "skill_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
       },
       "observed_at": "~/.agents/skills/codebase-design"
@@ -104,9 +104,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/diagnosing-bugs",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/diagnosing-bugs",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/diagnosing-bugs",
         "skill_sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d"
       },
       "observed_at": "~/.agents/skills/diagnosing-bugs"
@@ -118,9 +118,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/domain-modeling",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/domain-modeling",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/domain-modeling",
         "skill_sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
       },
       "observed_at": "~/.agents/skills/domain-modeling"
@@ -132,9 +132,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/vercel-labs/skills.git",
-        "ref": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8",
+        "ref": "af860243b8c68053b3b5151e3732b9322933674d",
         "path": "skills/find-skills",
-        "url": "https://github.com/vercel-labs/skills/tree/92a9a34ac3bf88e695e468b90c7bf32f163d32c8/skills/find-skills",
+        "url": "https://github.com/vercel-labs/skills/tree/af860243b8c68053b3b5151e3732b9322933674d/skills/find-skills",
         "skill_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
       },
       "observed_at": "~/.agents/skills/find-skills"
@@ -146,9 +146,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/grill-with-docs",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/grill-with-docs",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/grill-with-docs",
         "skill_sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe"
       },
       "observed_at": "~/.agents/skills/grill-with-docs"
@@ -160,9 +160,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/productivity/grilling",
-        "url": "https://github.com/mattpocock/skills/tree/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grilling",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/grilling",
         "skill_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2"
       },
       "observed_at": "~/.agents/skills/grilling"
@@ -174,9 +174,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/productivity/handoff",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/handoff",
         "skill_sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3"
       },
       "observed_at": "~/.agents/skills/handoff"
@@ -188,10 +188,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/blader/humanizer.git",
-        "ref": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+        "ref": "b48c832f0f809c1b5658edbb838c2521b72f2413",
         "path": ".",
-        "url": "https://github.com/blader/humanizer/tree/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
-        "skill_sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+        "url": "https://github.com/blader/humanizer/tree/b48c832f0f809c1b5658edbb838c2521b72f2413",
+        "skill_sha256": "804a119e924ac30295b298213e0b71b3e38b2667b8ef4fb7b69e9246369b9045"
       },
       "observed_at": "~/.agents/skills/humanizer"
     },
@@ -202,10 +202,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/pbakaus/impeccable.git",
-        "ref": "2f97a85a4a87a80066a693bd3546b092bd300772",
+        "ref": "d41d9860b0094dcb68030657da63461212835aaa",
         "path": ".agents/skills/impeccable",
-        "url": "https://github.com/pbakaus/impeccable/tree/2f97a85a4a87a80066a693bd3546b092bd300772/.agents/skills/impeccable",
-        "skill_sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
+        "url": "https://github.com/pbakaus/impeccable/tree/d41d9860b0094dcb68030657da63461212835aaa/.agents/skills/impeccable",
+        "skill_sha256": "12d15997482e6d0734c5f2dcc4f62cea7bcba19953940214cffa5c6a7758aa93"
       },
       "observed_at": "~/.agents/skills/impeccable"
     },
@@ -216,9 +216,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/improve-codebase-architecture",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/improve-codebase-architecture",
         "skill_sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6"
       },
       "observed_at": "~/.agents/skills/improve-codebase-architecture"
@@ -243,7 +243,7 @@
         "type": "well-known",
         "base_url": "https://open.feishu.cn",
         "url": "https://open.feishu.cn/.well-known/skills/lark-shared/SKILL.md",
-        "content_sha256": "sha256:1204200a3013b3031d8e54da2bc172a9b92f3f5d8baeaf13821614ef5bcaff10"
+        "content_sha256": "sha256:fe2dfba4b7afab81d961ab577d533161bac74b89a5bf9720596a8c6b066388ae"
       },
       "observed_at": "~/.agents/skills/lark-shared"
     },
@@ -254,9 +254,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/kaankiziltug/logo-design-skill.git",
-        "ref": "734090317a2155c5bf1ae8bd4cc85c6848a0128f",
+        "ref": "e9eaddc07895575253d6663320354a708f53e955",
         "path": "skills/logo-design",
-        "url": "https://github.com/kaankiziltug/logo-design-skill/tree/734090317a2155c5bf1ae8bd4cc85c6848a0128f/skills/logo-design",
+        "url": "https://github.com/kaankiziltug/logo-design-skill/tree/e9eaddc07895575253d6663320354a708f53e955/skills/logo-design",
         "skill_sha256": "65ec4bd58732e8cc11e244724e8666de78764b973f6d3b03b233904639cf47c6"
       },
       "observed_at": "~/.agents/skills/logo-design"
@@ -268,9 +268,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-figure",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure",
         "skill_sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4"
       },
       "observed_at": "~/.agents/skills/nature-figure"
@@ -282,9 +282,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-polishing",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-polishing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-polishing",
         "skill_sha256": "9391b2a2487306cf2ed560377d4bc10c339fd2c220a79db278cb7f9d31e79023"
       },
       "observed_at": "~/.agents/skills/nature-polishing"
@@ -296,9 +296,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-response",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-response",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-response",
         "skill_sha256": "a8283db56e73879413311cbcde1db4c72dd4390bbe21ab2f62f1f968610b5de1"
       },
       "observed_at": "~/.agents/skills/nature-response"
@@ -310,9 +310,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-reviewer",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-reviewer",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-reviewer",
         "skill_sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610"
       },
       "observed_at": "~/.agents/skills/nature-reviewer"
@@ -324,9 +324,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-shared",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-shared",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-shared",
         "skill_sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
       },
       "observed_at": "~/.agents/skills/nature-shared"
@@ -338,9 +338,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/Yuan1z0825/nature-skills.git",
-        "ref": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+        "ref": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
         "path": "skills/nature-writing",
-        "url": "https://github.com/Yuan1z0825/nature-skills/tree/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-writing",
+        "url": "https://github.com/Yuan1z0825/nature-skills/tree/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-writing",
         "skill_sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
       },
       "observed_at": "~/.agents/skills/nature-writing"
@@ -366,10 +366,10 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/hugohe3/ppt-master.git",
-        "ref": "5e8856be0da8e6bc85c4aa28acc614478f7b7137",
+        "ref": "3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf",
         "path": "skills/ppt-master",
-        "url": "https://github.com/hugohe3/ppt-master/tree/5e8856be0da8e6bc85c4aa28acc614478f7b7137/skills/ppt-master",
-        "skill_sha256": "5b58a5a807407401a8262357558c5d988c575bc3514ee367c22561c88467837f"
+        "url": "https://github.com/hugohe3/ppt-master/tree/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master",
+        "skill_sha256": "cda3f1f476a93a48385867dbdb89f661f27c35bfb670f51c7dbd53a3b300c856"
       },
       "observed_at": "~/.agents/skills/ppt-master"
     },
@@ -380,9 +380,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/research",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/research",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/research",
         "skill_sha256": "1f629e18ab899412683bc6a1c4efb4339999e27c2fdac328f26ee10a8c031d33"
       },
       "observed_at": "~/.agents/skills/research"
@@ -394,9 +394,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/retro",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/retro",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/retro",
         "skill_sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696"
       },
       "observed_at": "~/.agents/skills/retro"
@@ -408,9 +408,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/setup-matt-pocock-skills",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/setup-matt-pocock-skills",
         "skill_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed"
       },
       "observed_at": "~/.agents/skills/setup-matt-pocock-skills"
@@ -436,9 +436,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/engineering/tdd",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/tdd",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/tdd",
         "skill_sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0"
       },
       "observed_at": "~/.agents/skills/tdd"
@@ -450,9 +450,9 @@
       "source": {
         "type": "github",
         "repository": "https://github.com/mattpocock/skills.git",
-        "ref": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "ref": "5863806dd4e15c63174bee4e7515a4256792ecfa",
         "path": "skills/productivity/writing-for-agents",
-        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents",
+        "url": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/writing-for-agents",
         "skill_sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
       },
       "observed_at": "~/.agents/skills/writing-for-agents"

@@ -5,6 +5,7 @@ import io
 import json
 import os
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -14,6 +15,23 @@ from unittest import mock
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import install
 import sync
+
+
+class SourceDownloadTests(unittest.TestCase):
+    def test_large_repository_fetch_can_exceed_the_metadata_request_deadline(self):
+        revision = "a" * 40
+
+        def git_process(command, **kwargs):
+            if command[:2] == ["git", "fetch"] and kwargs["timeout"] < 240:
+                raise subprocess.TimeoutExpired(command, kwargs["timeout"])
+            output = revision if command[:2] == ["git", "rev-parse"] else ""
+            return subprocess.CompletedProcess(command, 0, stdout=output, stderr="")
+
+        with tempfile.TemporaryDirectory(prefix="nowskill-download-test-") as temp:
+            cache = install.SourceCache(Path(temp))
+            with mock.patch.object(install.subprocess, "run", side_effect=git_process):
+                checkout = cache.github("https://github.com/example/large-skill.git", revision)
+            self.assertTrue(checkout.is_dir())
 
 
 class SyncTests(unittest.TestCase):
